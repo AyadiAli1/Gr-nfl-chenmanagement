@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d21d4170474531107ec50d45d36d4311" label="Gruenflaechenarbeiten" max_length="40" name="x_1112736_gr_nfl_c_gruenflaechenarbeiten" type="collection">
+        <element label="Anfangsdatum" mandatory="true" max_length="40" name="anfangsdatum" type="glide_date_time"/>
+        <element label="Beschreibung" max_length="40" name="beschreibung" type="string"/>
+        <element label="Enddatum" mandatory="true" max_length="40" name="enddatum" type="glide_date_time"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Ort" mandatory="true" max_length="32" name="ort" reference="x_1112736_gr_nfl_c_gruenflaechen" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Angefangen" value="angefangen"/>
+                <element inactive_on_update="false" label="Fertig" value="fertig"/>
+                <element inactive_on_update="false" label="in Bearbeitung" value="in Bearbeitung"/>
+            </choice>
+        </element>
+        <element label="Typ" mandatory="true" max_length="40" name="typ" reference="x_1112736_gr_nfl_c_gruenflaechenarbeitstyp" type="reference"/>
+        <element choice="1" label="Wichtigkeit" mandatory="true" max_length="40" name="wichtigkeit" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Zuständigemitarbeiter" mandatory="true" max_length="40" name="zustandigemitarbeiter" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="ort"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4ffec1b4474531107ec50d45d36d432f" label="Veranstaltungen" max_length="40" name="x_1112736_gr_nfl_c_veranstaltungen" type="collection">
+        <element label="Beschreibung" max_length="40" name="beschreibung" type="integer"/>
+        <element label="Dauer" mandatory="true" max_length="40" name="dauer" type="integer"/>
+        <element label="ID_Veranstatlung" max_length="40" name="id_veranstatlung" type="integer"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Ort" mandatory="true" max_length="4000" name="ort" type="glide_list"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Typ" mandatory="true" max_length="40" name="typ" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Wichtigkeit" mandatory="true" max_length="40" name="wichtigkeit" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

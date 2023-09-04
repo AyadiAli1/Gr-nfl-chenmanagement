@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="00d8c930474531107ec50d45d36d4356" label="Gruenflaechen" max_length="40" name="x_1112736_gr_nfl_c_gruenflaechen" type="collection">
+        <element label="Beschreibung" max_length="40" name="beschreibung" type="string"/>
+        <element label="Fläche" mandatory="true" max_length="40" name="flache" type="float"/>
+        <element choice="1" label="Kategorie" mandatory="true" max_length="40" name="kategorie" type="choice">
+            <choice/>
+        </element>
+        <element label="Ort" mandatory="true" max_length="4000" name="ort" type="glide_list"/>
+    </element>
+</database>
