@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Gebäude</name>
+        <order/>
+        <roles>x_1112736_gr_nfl_c.geb_ude_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-09-07 17:55:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>563a3dc7470971107ec50d45d36d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gebäude</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sys_ui_application_563a3dc7470971107ec50d45d36d43f9</sys_update_name>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-07 17:55:05</sys_updated_on>
+    </sys_ui_application>
+</record_update>

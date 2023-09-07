@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
+    <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <click_in_mode>false</click_in_mode>
+        <context_config_id display_value="GFM Homepage Search">84295ccb478171107ec50d45d36d437a</context_config_id>
+        <limit>5</limit>
+        <order>600</order>
+        <section_header>Suggested</section_header>
+        <suggestion_type>Search-based Suggested Results Reader Group for GFM Homepage Search</suggestion_type>
+        <sys_class_name>sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-07 10:51:05</sys_created_on>
+        <sys_id>87299ccb478171107ec50d45d36d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search-based Suggested Results Reader Group for GFM Homepage Search</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sys_suggestion_reader_group_87299ccb478171107ec50d45d36d434e</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-07 10:51:05</sys_updated_on>
+    </sys_suggestion_reader_group>
+</record_update>

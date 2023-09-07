@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Pflegeobjektens</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1112736_gr_nfl_c_pflegeobjekten</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1112736_gr_nfl_c.pflegeobjekten_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-04 12:31:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c973dd0e47cd35107ec50d45d36d43cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Pflegeobjekts</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sys_app_module_c973dd0e47cd35107ec50d45d36d43cb</sys_update_name>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-07 17:52:07</sys_updated_on>
+        <timeline_page/>
+        <title>Pflegeobjekts</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sys_app_module_c973dd0e47cd35107ec50d45d36d43cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Pflegeobjektens</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1112736_gr_nfl_c_pflegeobjekten</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1112736_gr_nfl_c.pflegeobjekten_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-04 12:31:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c973dd0e47cd35107ec50d45d36d43cb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Pflegeobjekts</sys_name><sys_overrides/><sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package><sys_policy/><sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope><sys_update_name>sys_app_module_c973dd0e47cd35107ec50d45d36d43cb</sys_update_name><sys_updated_by>claudia</sys_updated_by><sys_updated_on>2023-09-07 17:52:07</sys_updated_on><timeline_page/><title>Pflegeobjekts</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-311865272</payload_hash>
+        <record_name>Pflegeobjekts</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-09-07 18:16:55</sys_created_on>
+        <sys_id>3d3f310f470971107ec50d45d36d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a70dc85ea0000001</sys_recorded_at>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:16:55</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2a8971c77f0971104ede5f51c0aebd87</update_guid>
+        <update_guid_history>2a8971c77f0971104ede5f51c0aebd87:-1002672879,2a8971c77f0971104ede5f51c0aebd87:-1002672879,c973114e13cd3510bf6a9c98944d57ba:691483633</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Pflegeobjekts">8c9f794f470971107ec50d45d36d43e3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-09-07 18:18:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2e383ca3da394230bf06523ae81ae211</sys_id>
+        <sys_metadata>c973dd0e47cd35107ec50d45d36d43cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pflegeobjekts</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sys_app_module_c973dd0e47cd35107ec50d45d36d43cb</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c973dd0e47cd35107ec50d45d36d43cb">3d3f310f470971107ec50d45d36d43b1</sys_update_version>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:18:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

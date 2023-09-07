@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="0a63d90e47cd35107ec50d45d36d4346" label="Pflegeobjekten" max_length="40" name="x_1112736_gr_nfl_c_pflegeobjekten" type="collection">
+    <element db_object_id="0a63d90e47cd35107ec50d45d36d4346" label="Pflegeobjekt" max_length="40" name="x_1112736_gr_nfl_c_pflegeobjekten" type="collection">
         <element label="Gruenflaeche" mandatory="true" max_length="32" name="gruenflaeche" reference="x_1112736_gr_nfl_c_gruenflaechen" type="reference"/>
         <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice/>
         </element>
         <element choice="1" label="Typ" mandatory="true" max_length="40" name="typ" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Bäume und Sträucher" value="baeume"/>
+                <element inactive_on_update="false" label="Freizeitfläche" value="freizeit"/>
+                <element inactive_on_update="false" label="Pflanzfläche" value="pflanzen"/>
+                <element inactive_on_update="false" label="Rasenfläche" value="rasen"/>
+                <element inactive_on_update="false" label="Teiche und Wasserflächen" value="wasser"/>
+                <element inactive_on_update="false" label="Wege und Pfade" value="weg"/>
+            </choice>
         </element>
         <index name="index">
             <element name="gruenflaeche"/>

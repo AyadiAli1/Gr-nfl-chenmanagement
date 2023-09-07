@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Gebäudes</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1112736_gr_nfl_c_gebaeude</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1112736_gr_nfl_c.geb_ude_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-09-07 17:55:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a3a3dc7470971107ec50d45d36d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gebäudes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sys_app_module_5a3a3dc7470971107ec50d45d36d43f6</sys_update_name>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-07 17:55:05</sys_updated_on>
+        <timeline_page/>
+        <title>Gebäudes</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sys_app_module_5a3a3dc7470971107ec50d45d36d43f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Gebäudes</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1112736_gr_nfl_c_gebaeude</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1112736_gr_nfl_c.geb_ude_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>claudia</sys_created_by><sys_created_on>2023-09-07 17:55:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5a3a3dc7470971107ec50d45d36d43f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Gebäudes</sys_name><sys_overrides/><sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package><sys_policy/><sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope><sys_update_name>sys_app_module_5a3a3dc7470971107ec50d45d36d43f6</sys_update_name><sys_updated_by>claudia</sys_updated_by><sys_updated_on>2023-09-07 17:55:05</sys_updated_on><timeline_page/><title>Gebäudes</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-588871736</payload_hash>
+        <record_name>Gebäudes</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-09-07 18:17:07</sys_created_on>
+        <sys_id>784ff50f470971107ec50d45d36d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a70dcb6b50000001</sys_recorded_at>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:17:07</sys_updated_on>
+        <type>Module</type>
+        <update_guid>163a3dc7b60971100488494dd04522f8</update_guid>
+        <update_guid_history>163a3dc7b60971100488494dd04522f8:1632599613,163a3dc7b60971100488494dd04522f8:1632599613</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Gebäudes">aebf3d4f470971107ec50d45d36d43fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-09-07 18:19:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>038f109364f04b7a806d91f65b36f784</sys_id>
+        <sys_metadata>5a3a3dc7470971107ec50d45d36d43f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gebäudes</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sys_app_module_5a3a3dc7470971107ec50d45d36d43f6</sys_update_name>
+        <sys_update_version display_value="sys_app_module_5a3a3dc7470971107ec50d45d36d43f6">784ff50f470971107ec50d45d36d4335</sys_update_version>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:19:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -2,12 +2,8 @@
     <element db_object_id="f4d3194e47cd35107ec50d45d36d43bd" label="Koordinierungstabelle" max_length="40" name="x_1112736_gr_nfl_c_koordinierungstabelle" type="collection">
         <element label="Gruenflaechenarbeiten" mandatory="true" max_length="32" name="gruenflaechenarbeiten" reference="x_1112736_gr_nfl_c_gruenflaechenarbeiten" type="reference"/>
         <element label="Kollision" max_length="4000" name="kollision" read_only="true" type="glide_list"/>
-        <element label="Veranstaltung" mandatory="true" max_length="32" name="veranstaltung" reference="x_1112736_gr_nfl_c_veranstaltungen" type="reference"/>
         <index name="index">
             <element name="gruenflaechenarbeiten"/>
-        </index>
-        <index name="index2">
-            <element name="veranstaltung"/>
         </index>
     </element>
 </database>

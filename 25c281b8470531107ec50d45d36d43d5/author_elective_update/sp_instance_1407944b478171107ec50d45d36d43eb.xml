@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">73f6584b478171107ec50d45d36d4316</sp_column>
+        <sp_widget display_value="Appsec Scanner Home Page">a2607d96538230104df4ddeeff7b123e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-07 10:41:36</sys_created_on>
+        <sys_id>1407944b478171107ec50d45d36d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_1407944b478171107ec50d45d36d43eb</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-07 10:41:36</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=1407944b478171107ec50d45d36d43eb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_1407944b478171107ec50d45d36d43eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">73f6584b478171107ec50d45d36d4316</sp_column><sp_widget display_value="Appsec Scanner Home Page">a2607d96538230104df4ddeeff7b123e</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>lisa</sys_created_by><sys_created_on>2023-09-07 10:41:36</sys_created_on><sys_id>1407944b478171107ec50d45d36d43eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package><sys_policy/><sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope><sys_update_name>sp_instance_1407944b478171107ec50d45d36d43eb</sys_update_name><sys_updated_by>lisa</sys_updated_by><sys_updated_on>2023-09-07 10:41:36</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=1407944b478171107ec50d45d36d43eb"/></record_update>]]></payload>
+        <payload_hash>111830904</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-07 10:41:36</sys_created_on>
+        <sys_id>9c07944b478171107ec50d45d36d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a6f3bacd80000001</sys_recorded_at>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-07 10:41:36</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>d407944b2f817110fe621c7d44ab48ed</update_guid>
+        <update_guid_history>d407944b2f817110fe621c7d44ab48ed:111830904</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">bd07904b478171107ec50d45d36d43cd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-07 10:41:42</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>6109189f0af74870a7dc133ab388e0a4</sys_id>
+        <sys_metadata>1407944b478171107ec50d45d36d43eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_1407944b478171107ec50d45d36d43eb</sys_update_name>
+        <sys_update_version display_value="sp_instance_1407944b478171107ec50d45d36d43eb">9c07944b478171107ec50d45d36d43ed</sys_update_version>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-07 10:41:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

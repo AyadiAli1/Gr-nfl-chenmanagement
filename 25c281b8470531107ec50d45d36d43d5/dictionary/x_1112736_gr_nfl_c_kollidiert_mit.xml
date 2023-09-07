@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="23b1cecf470971107ec50d45d36d4325" label="kollidiert_mit_termin" max_length="40" name="x_1112736_gr_nfl_c_kollidiert_mit" type="collection">
+        <element label="GFA_ID" max_length="32" name="gfa_id" reference="x_1112736_gr_nfl_c_gruenflaechenarbeiten" type="reference"/>
+        <element label="Termin_ID" max_length="32" name="termin_id" reference="x_1112736_gr_nfl_c_veranstaltung" type="reference"/>
+        <index name="index">
+            <element name="gfa_id"/>
+        </index>
+        <index name="index2">
+            <element name="termin_id"/>
+        </index>
+    </element>
+</database>

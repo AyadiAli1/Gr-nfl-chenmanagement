@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="typ" table="x_1112736_gr_nfl_c_veranstaltung" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>typ</element>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:49:40</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>typ</sys_name>
+            <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+            <sys_update_name>sys_choice_x_1112736_gr_nfl_c_veranstaltung_typ</sys_update_name>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:49:40</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Abschlussprüfung</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:50:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7c64647474971107ec50d45d36d439a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:50:19</sys_updated_on>
+            <value>abschluss</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Klausur</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:49:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87860a07474971107ec50d45d36d4332</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:49:45</sys_updated_on>
+            <value>klausur</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kolloquium</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:50:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92d6ca47474971107ec50d45d36d4363</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:50:33</sys_updated_on>
+            <value>kolloq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laborarbeit</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:51:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61078647474971107ec50d45d36d434a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:51:12</sys_updated_on>
+            <value>labor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mündliche Prüfung</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:49:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42b68a07474971107ec50d45d36d43fe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:49:56</sys_updated_on>
+            <value>muendlich</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Präsentation</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:50:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18c64647474971107ec50d45d36d4399</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:50:10</sys_updated_on>
+            <value>praesentation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Praktikum</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:50:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8f6c647474971107ec50d45d36d4343</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:50:53</sys_updated_on>
+            <value>praktikum</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Übung</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:51:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cff60647474971107ec50d45d36d43f0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:51:03</sys_updated_on>
+            <value>uebung</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vorlesung</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:50:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42e68647474971107ec50d45d36d4337</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:50:44</sys_updated_on>
+            <value>vorlesung</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

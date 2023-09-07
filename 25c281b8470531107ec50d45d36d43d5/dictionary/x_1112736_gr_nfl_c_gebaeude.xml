@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="32d9b1c7470971107ec50d45d36d4320" label="Gebäude" max_length="40" name="x_1112736_gr_nfl_c_gebaeude" type="collection">
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8ae24243474971107ec50d45d36d4384" label="kollidiert_mit_arbeit" max_length="40" name="x_1112736_gr_nfl_c_kollidiert_mit_arbeit" type="collection">
+        <element label="GFA_ID_1" max_length="32" name="gfa_id_1" reference="x_1112736_gr_nfl_c_gruenflaechenarbeiten" type="reference"/>
+        <element label="GFA_ID_2" max_length="32" name="gfa_id_2" reference="x_1112736_gr_nfl_c_gruenflaechenarbeiten" type="reference"/>
+        <index name="index">
+            <element name="gfa_id_1"/>
+        </index>
+        <index name="index2">
+            <element name="gfa_id_2"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="023705c7474571107ec50d45d36d4371" sys_domain="global" table="x_1112736_gr_nfl_c_gruenflaechenarbeiten" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 14:12:16</sys_created_on>
+            <sys_id>d63705c7474571107ec50d45d36d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1112736_gr_nfl_c_gruenflaechenarbeiten" sys_domain="global" view="Default view">023705c7474571107ec50d45d36d4371</sys_ui_section>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 14:12:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>1</position>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 14:12:16</sys_created_on>
+            <sys_id>da3705c7474571107ec50d45d36d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1112736_gr_nfl_c_gruenflaechenarbeiten" sys_domain="global" view="Default view">023705c7474571107ec50d45d36d4371</sys_ui_section>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 14:12:16</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>beschreibung</element>
+            <position>2</position>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 14:12:16</sys_created_on>
+            <sys_id>de3705c7474571107ec50d45d36d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1112736_gr_nfl_c_gruenflaechenarbeiten" sys_domain="global" view="Default view">023705c7474571107ec50d45d36d4371</sys_ui_section>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 14:12:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1112736_gr_nfl_c_gruenflaechenarbeiten</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 14:12:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>023705c7474571107ec50d45d36d4371</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1112736_gr_nfl_c_gruenflaechenarbeiten</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+            <sys_update_name>sys_ui_section_023705c7474571107ec50d45d36d4371</sys_update_name>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 14:12:15</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sys_ui_section_023705c7474571107ec50d45d36d4371</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="023705c7474571107ec50d45d36d4371" sys_domain="global" table="x_1112736_gr_nfl_c_gruenflaechenarbeiten" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>0</position><sys_created_by>claudia</sys_created_by><sys_created_on>2023-09-07 14:12:16</sys_created_on><sys_id>d63705c7474571107ec50d45d36d43a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1112736_gr_nfl_c_gruenflaechenarbeiten" sys_domain="global" view="Default view">023705c7474571107ec50d45d36d4371</sys_ui_section><sys_updated_by>claudia</sys_updated_by><sys_updated_on>2023-09-07 14:12:16</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>1</position><sys_created_by>claudia</sys_created_by><sys_created_on>2023-09-07 14:12:16</sys_created_on><sys_id>da3705c7474571107ec50d45d36d43a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1112736_gr_nfl_c_gruenflaechenarbeiten" sys_domain="global" view="Default view">023705c7474571107ec50d45d36d4371</sys_ui_section><sys_updated_by>claudia</sys_updated_by><sys_updated_on>2023-09-07 14:12:16</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>beschreibung</element><position>2</position><sys_created_by>claudia</sys_created_by><sys_created_on>2023-09-07 14:12:16</sys_created_on><sys_id>de3705c7474571107ec50d45d36d43a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1112736_gr_nfl_c_gruenflaechenarbeiten" sys_domain="global" view="Default view">023705c7474571107ec50d45d36d4371</sys_ui_section><sys_updated_by>claudia</sys_updated_by><sys_updated_on>2023-09-07 14:12:16</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_1112736_gr_nfl_c_gruenflaechenarbeiten</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>claudia</sys_created_by><sys_created_on>2023-09-07 14:12:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>023705c7474571107ec50d45d36d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1112736_gr_nfl_c_gruenflaechenarbeiten</sys_name><sys_overrides/><sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package><sys_policy/><sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope><sys_update_name>sys_ui_section_023705c7474571107ec50d45d36d4371</sys_update_name><sys_updated_by>claudia</sys_updated_by><sys_updated_on>2023-09-07 14:12:15</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>455294309</payload_hash>
+        <record_name>Gruenflaechenarbeiten</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-09-07 14:12:16</sys_created_on>
+        <sys_id>da3705c7474571107ec50d45d36d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a6ffc8b690000001</sys_recorded_at>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-07 14:12:16</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>563705c79345711075bb48ad7164afa7</update_guid>
+        <update_guid_history>563705c79345711075bb48ad7164afa7:455294309</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-09-07 14:15:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>80811d3410e44ec0a6bccdcde8ec3900</sys_id>
+        <sys_metadata>023705c7474571107ec50d45d36d4371</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent display_value="Grünflächenarbeit">d21d4170474531107ec50d45d36d4311</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_023705c7474571107ec50d45d36d4371</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_023705c7474571107ec50d45d36d4371">da3705c7474571107ec50d45d36d43a7</sys_update_version>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-07 14:15:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

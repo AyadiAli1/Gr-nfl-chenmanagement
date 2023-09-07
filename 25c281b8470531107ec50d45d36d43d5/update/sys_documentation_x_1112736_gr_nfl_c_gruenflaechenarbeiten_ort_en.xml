@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="ort" label="Ort" language="en" table="x_1112736_gr_nfl_c_gruenflaechenarbeiten">
+    <sys_documentation element="ort" label="Grünfläche" language="en" table="x_1112736_gr_nfl_c_gruenflaechenarbeiten">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>ort</element>
             <help/>
             <hint/>
-            <label>Ort</label>
+            <label>Grünfläche</label>
             <language>en</language>
             <name>x_1112736_gr_nfl_c_gruenflaechenarbeiten</name>
-            <plural>Orts</plural>
+            <plural>Grünfläches</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-08-31 14:56:26</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Ort</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Grünfläche</sys_name>
             <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
             <sys_policy/>
             <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
             <sys_update_name>sys_documentation_x_1112736_gr_nfl_c_gruenflaechenarbeiten_ort_en</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-08-31 14:56:26</sys_updated_on>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:04:20</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

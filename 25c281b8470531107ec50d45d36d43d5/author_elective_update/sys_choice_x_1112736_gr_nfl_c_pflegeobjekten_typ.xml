@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="typ" table="x_1112736_gr_nfl_c_pflegeobjekten" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>typ</element>
+            <name>x_1112736_gr_nfl_c_pflegeobjekten</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:54:26</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>typ</sys_name>
+            <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+            <sys_update_name>sys_choice_x_1112736_gr_nfl_c_pflegeobjekten_typ</sys_update_name>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:54:26</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bäume und Sträucher</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_pflegeobjekten</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:55:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8fd74e87474971107ec50d45d36d4349</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:55:04</sys_updated_on>
+            <value>baeume</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Freizeitfläche</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_pflegeobjekten</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:55:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48f78287474971107ec50d45d36d43c5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:55:23</sys_updated_on>
+            <value>freizeit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pflanzfläche</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_pflegeobjekten</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:54:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33c74e87474971107ec50d45d36d4349</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:54:44</sys_updated_on>
+            <value>pflanzen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rasenfläche</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_pflegeobjekten</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:54:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e8978687474971107ec50d45d36d4398</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:54:30</sys_updated_on>
+            <value>rasen</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Teiche und Wasserflächen</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_pflegeobjekten</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a408ce87474971107ec50d45d36d43a2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:55:38</sys_updated_on>
+            <value>wasser</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wege und Pfade</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_pflegeobjekten</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-07 18:56:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c188687474971107ec50d45d36d4354</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-07 18:56:04</sys_updated_on>
+            <value>weg</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

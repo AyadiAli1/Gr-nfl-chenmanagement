@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="534182cf470971107ec50d45d36d431a" label="anliegend" max_length="40" name="x_1112736_gr_nfl_c_anliegend" type="collection">
+        <element label="Gebäude_ID" max_length="32" name="gebaeude_id" reference="x_1112736_gr_nfl_c_gebaeude" type="reference"/>
+        <element label="GF_ID" max_length="32" name="gf_id" reference="x_1112736_gr_nfl_c_gruenflaechen" type="reference"/>
+        <index name="index">
+            <element name="gebaeude_id"/>
+        </index>
+        <index name="index2">
+            <element name="gf_id"/>
+        </index>
+    </element>
+</database>
