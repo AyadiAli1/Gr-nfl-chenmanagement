@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="DELETE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-09-08 12:11:14</sys_created_on>
+        <sys_id>c4e4f51747c131107ec50d45d36d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1112736_gr_nfl_c_gebaeude</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sys_db_view_table_c4e4f51747c131107ec50d45d36d4330</sys_update_name>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-08 12:11:14</sys_updated_on>
+        <table>x_1112736_gr_nfl_c_gebaeude</table>
+        <variable_prefix>geb</variable_prefix>
+        <view display_value="x_1112736_gr_nfl_c_gfa_veranstaltung">3d93fdd347c131107ec50d45d36d437c</view>
+        <where_clause>anliegend_x_1112736_gr_nfl_c_gebaeude = geb_sys_id</where_clause>
+    </sys_db_view_table>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sys_db_view_table_c4e4f51747c131107ec50d45d36d4330</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table"><sys_db_view_table action="INSERT_OR_UPDATE"><active>true</active><left_join>false</left_join><order>100</order><sys_class_name>sys_db_view_table</sys_class_name><sys_created_by>claudia</sys_created_by><sys_created_on>2023-09-08 12:11:14</sys_created_on><sys_id>c4e4f51747c131107ec50d45d36d4330</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1112736_gr_nfl_c_gebaeude</sys_name><sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package><sys_policy/><sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope><sys_update_name>sys_db_view_table_c4e4f51747c131107ec50d45d36d4330</sys_update_name><sys_updated_by>claudia</sys_updated_by><sys_updated_on>2023-09-08 12:11:14</sys_updated_on><table>x_1112736_gr_nfl_c_gebaeude</table><variable_prefix>geb</variable_prefix><view display_value="x_1112736_gr_nfl_c_gfa_veranstaltung">3d93fdd347c131107ec50d45d36d437c</view><where_clause>anliegend_x_1112736_gr_nfl_c_gebaeude = geb_sys_id</where_clause></sys_db_view_table></record_update>]]></payload>
+        <payload_hash>-745529382</payload_hash>
+        <record_name>x_1112736_gr_nfl_c_gebaeude</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-09-08 12:11:14</sys_created_on>
+        <sys_id>cb15b55747c131107ec50d45d36d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a74b417400000001</sys_recorded_at>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-08 12:11:14</sys_updated_on>
+        <type>View Table</type>
+        <update_guid>0715b55760c1311036bec0887d0133dd</update_guid>
+        <update_guid_history>0715b55760c1311036bec0887d0133dd:-745529382</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-09-08 12:13:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table">sys_db_view_table</sys_db_object>
+        <sys_id>005216b8b97144a8b70fc7ec2c37f840</sys_id>
+        <sys_metadata>c4e4f51747c131107ec50d45d36d4330</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1112736_gr_nfl_c_gebaeude</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent display_value="x_1112736_gr_nfl_c_gfa_veranstaltung">3d93fdd347c131107ec50d45d36d437c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_c4e4f51747c131107ec50d45d36d4330</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_c4e4f51747c131107ec50d45d36d4330">cb15b55747c131107ec50d45d36d43dd</sys_update_version>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-08 12:13:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

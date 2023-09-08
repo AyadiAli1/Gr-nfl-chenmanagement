@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="274b5d5b474131107ec50d45d36d4326" label="x_1112736_gr_nfl_c_m2m_Grünfläches_Gebäudes" max_length="40" name="x_1112736_gr_nfl_c_m2m_x_1112736_g_x_1112736_g" type="collection">
+        <element attributes="encode_utf8=false" label="Gebäudes" max_length="32" name="x_1112736_gr_nfl_c_gebaeude" reference="x_1112736_gr_nfl_c_gebaeude" type="reference"/>
+        <element attributes="encode_utf8=false" label="Grünfläches" max_length="32" name="x_1112736_gr_nfl_c_gruenflaechen" reference="x_1112736_gr_nfl_c_gruenflaechen" type="reference"/>
+        <index name="index">
+            <element name="x_1112736_gr_nfl_c_gebaeude"/>
+        </index>
+    </element>
+</database>

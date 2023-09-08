@@ -3,6 +3,14 @@
         <element label="Start" mandatory="true" max_length="40" name="anfangsdatum" type="glide_date"/>
         <element label="Kurzbeschreibung" max_length="40" name="beschreibung" type="string"/>
         <element label="Ende" mandatory="true" max_length="40" name="enddatum" type="glide_date"/>
+        <element choice="1" default="1" label="Kollision" max_length="40" name="kollision" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Keine Kollision" value="1"/>
+                <element inactive_on_update="false" label="Kollision mit GF-Arbeit" value="2"/>
+                <element inactive_on_update="false" label="Kollision mit GF-Arbeit und Veranstaltung" value="4"/>
+                <element inactive_on_update="false" label="Kollision mit Veranstaltung" value="3"/>
+            </choice>
+        </element>
         <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element label="Grünfläche" mandatory="true" max_length="32" name="ort" reference="x_1112736_gr_nfl_c_gruenflaechen" type="reference"/>
         <element label="Pflegeobjekt" max_length="32" name="pflegeobjekt" reference="x_1112736_gr_nfl_c_pflegeobjekten" type="reference"/>

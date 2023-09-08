@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="dbdcfd8b470971107ec50d45d36d4320" label="Veranstaltung" max_length="40" name="x_1112736_gr_nfl_c_veranstaltung" type="collection">
         <element label="Kurzbeschreibung" max_length="40" name="beschreibung" type="string"/>
-        <element label="Ende" mandatory="true" max_length="40" name="ende" type="glide_date_time"/>
+        <element label="Ende" mandatory="true" max_length="40" name="ende" type="glide_date"/>
         <element label="Gebäude" mandatory="true" max_length="32" name="gebaeude" reference="x_1112736_gr_nfl_c_gebaeude" type="reference"/>
         <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Ansprechpartner" mandatory="true" max_length="32" name="person" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
@@ -11,7 +11,7 @@
                 <element inactive_on_update="false" label="2 - Niedrig" value="2"/>
             </choice>
         </element>
-        <element label="Start" mandatory="true" max_length="40" name="start" type="glide_date_time"/>
+        <element label="Start" mandatory="true" max_length="40" name="start" type="glide_date"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice/>
         </element>

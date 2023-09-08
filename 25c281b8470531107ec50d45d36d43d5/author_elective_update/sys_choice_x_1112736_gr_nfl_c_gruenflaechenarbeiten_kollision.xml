@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="kollision" table="x_1112736_gr_nfl_c_gruenflaechenarbeiten" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>kollision</element>
+            <name>x_1112736_gr_nfl_c_gruenflaechenarbeiten</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-08 10:38:25</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>kollision</sys_name>
+            <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+            <sys_update_name>sys_choice_x_1112736_gr_nfl_c_gruenflaechenarbeiten_kollision</sys_update_name>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-08 10:38:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kollision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Keine Kollision</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_gruenflaechenarbeiten</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-08 10:38:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>857f55df474131107ec50d45d36d4323</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-08 10:38:45</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kollision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kollision mit GF-Arbeit</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_gruenflaechenarbeiten</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-08 10:38:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bdfd513478131107ec50d45d36d4377</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-08 10:39:03</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kollision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kollision mit Veranstaltung</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_gruenflaechenarbeiten</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-08 10:39:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c400ed9f474131107ec50d45d36d4304</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-08 10:39:27</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kollision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kollision mit GF-Arbeit und Veranstaltung</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_gruenflaechenarbeiten</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>claudia</sys_created_by>
+            <sys_created_on>2023-09-08 10:39:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26006153478131107ec50d45d36d4360</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>claudia</sys_updated_by>
+            <sys_updated_on>2023-09-08 10:39:39</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_1112736_gr_nfl_c_gruenflaechenarbeiten</from_table>
+        <m2m_from_field>x_1112736_gr_nfl_c_gruenflaechenarbeiten</m2m_from_field>
+        <m2m_from_label>kollidiert_mit_termins</m2m_from_label>
+        <m2m_table>x_1112736_gr_nfl_c_x_1112736_kollidiert_mit</m2m_table>
+        <m2m_to_field>x_1112736_gr_nfl_c_kollidiert_mit</m2m_to_field>
+        <m2m_to_label>Grünflächenarbeits</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-09-08 10:34:23</sys_created_on>
+        <sys_id>f6aed9df474131107ec50d45d36d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1112736_gr_nfl_c_x_1112736_kollidiert_mit</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sys_m2m_f6aed9df474131107ec50d45d36d432e</sys_update_name>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-08 10:34:23</sys_updated_on>
+        <to_table>x_1112736_gr_nfl_c_kollidiert_mit</to_table>
+    </sys_m2m>
+</record_update>
