@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>4</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">ca978a9847d9b1107ec50d45d36d4379</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 16:05:55</sys_created_on>
+        <sys_id>0e978a9847d9b1107ec50d45d36d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_column_0e978a9847d9b1107ec50d45d36d437b</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 16:05:55</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_column_0e978a9847d9b1107ec50d45d36d437b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>4</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">ca978a9847d9b1107ec50d45d36d4379</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>lisa</sys_created_by><sys_created_on>2023-09-11 16:05:55</sys_created_on><sys_id>0e978a9847d9b1107ec50d45d36d437b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package><sys_policy/><sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope><sys_update_name>sp_column_0e978a9847d9b1107ec50d45d36d437b</sys_update_name><sys_updated_by>lisa</sys_updated_by><sys_updated_on>2023-09-11 16:05:55</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>171711147</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 16:05:55</sys_created_on>
+        <sys_id>96978a9847d9b1107ec50d45d36d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a84fe09220000001</sys_recorded_at>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 16:05:55</sys_updated_on>
+        <type>Column</type>
+        <update_guid>de978a980ad9b110c9c7390dcf7df77c</update_guid>
+        <update_guid_history>de978a980ad9b110c9c7390dcf7df77c:171711147</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">b3b7c2d847d9b1107ec50d45d36d430e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 16:06:34</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>0008518f7705473c80004a5e27ad6590</sys_id>
+        <sys_metadata>0e978a9847d9b1107ec50d45d36d437b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_column_0e978a9847d9b1107ec50d45d36d437b</sys_update_name>
+        <sys_update_version display_value="sp_column_0e978a9847d9b1107ec50d45d36d437b">96978a9847d9b1107ec50d45d36d437d</sys_update_version>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 16:06:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

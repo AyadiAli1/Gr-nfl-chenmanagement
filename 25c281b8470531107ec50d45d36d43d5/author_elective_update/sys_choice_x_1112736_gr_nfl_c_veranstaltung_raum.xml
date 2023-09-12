@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="raum" table="x_1112736_gr_nfl_c_veranstaltung" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>raum</element>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-10 08:44:37</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>raum</sys_name>
+            <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+            <sys_update_name>sys_choice_x_1112736_gr_nfl_c_veranstaltung_raum</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-10 08:44:37</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>raum</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>101</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-11 13:07:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3caed55c4719b1107ec50d45d36d43ce</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-11 13:07:13</sys_updated_on>
+            <value>101</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>raum</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>102</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-11 13:07:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93aed55c4719b1107ec50d45d36d43e3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-11 13:07:20</sys_updated_on>
+            <value>102</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>raum</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>201</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-11 13:07:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91be559c4719b1107ec50d45d36d4313</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-11 13:07:31</sys_updated_on>
+            <value>201</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>raum</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>202</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-11 13:07:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1fbe159c4719b1107ec50d45d36d4397</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-11 13:07:36</sys_updated_on>
+            <value>202</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>raum</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>301</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-11 13:07:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>71ce519c4719b1107ec50d45d36d4368</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-11 13:07:43</sys_updated_on>
+            <value>301</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>raum</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>302</label>
+            <language>en</language>
+            <name>x_1112736_gr_nfl_c_veranstaltung</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-11 13:07:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bce159c4719b1107ec50d45d36d43a1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-11 13:07:48</sys_updated_on>
+            <value>302</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

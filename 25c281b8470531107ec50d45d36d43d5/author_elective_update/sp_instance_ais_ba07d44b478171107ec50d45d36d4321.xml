@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <placeholder/>
+        <roles/>
+        <search_application display_value="Quick Action - KB Search ">492f958dc30101103f4fcd7b7940dd2a</search_application>
+        <search_results_configuration display_value="Service Portal Search">80eb579d53671010968addeeff7b1215</search_results_configuration>
+        <short_description>Team: Alice, Ali, Bryan, Claudia, Leonie, Lisa</short_description>
+        <size>md</size>
+        <sp_column display_value="1">dfec9a90475db1107ec50d45d36d434b</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-07 10:41:47</sys_created_on>
+        <sys_id>ba07d44b478171107ec50d45d36d4321</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Willkommen bei GreenCare!</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_ais_ba07d44b478171107ec50d45d36d4321</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 17:39:20</sys_updated_on>
+        <title>Willkommen bei GreenCare!</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "{title: 'Wie können wir Ihnen helfen?', size: 'lg', color: 'default'}",
+		"displayValue": "{title: 'Wie können wir Ihnen helfen?', size: 'lg', color: 'default'}"
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=ba07d44b478171107ec50d45d36d4321"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_ais_ba07d44b478171107ec50d45d36d4321</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_ais"&gt;&lt;sp_instance_ais action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;ai_search_source_filter/&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;disable_all_suggestions&gt;false&lt;/disable_all_suggestions&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;placeholder/&gt;&lt;roles/&gt;&lt;search_application display_value="Quick Action - KB Search "&gt;492f958dc30101103f4fcd7b7940dd2a&lt;/search_application&gt;&lt;search_results_configuration display_value="Service Portal Search"&gt;80eb579d53671010968addeeff7b1215&lt;/search_results_configuration&gt;&lt;short_description&gt;Team: Alice, Ali, Bryan, Claudia, Leonie, Lisa&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;dfec9a90475db1107ec50d45d36d434b&lt;/sp_column&gt;&lt;sp_widget display_value="Homepage Search"&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sp_widget&gt;&lt;spell_check_font_size&gt;xl&lt;/spell_check_font_size&gt;&lt;sys_class_name&gt;sp_instance_ais&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lisa&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 10:41:47&lt;/sys_created_on&gt;&lt;sys_id&gt;ba07d44b478171107ec50d45d36d4321&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;Willkommen bei GreenCare!&lt;/sys_name&gt;&lt;sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Grünflächenmanagement"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_ais_ba07d44b478171107ec50d45d36d4321&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lisa&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-11 17:39:20&lt;/sys_updated_on&gt;&lt;title&gt;Willkommen bei GreenCare!&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"typeahead_search": {
+		"value": "{title: 'Wie können wir Ihnen helfen?', size: 'lg', color: 'default'}",
+		"displayValue": "{title: 'Wie können wir Ihnen helfen?', size: 'lg', color: 'default'}"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_ais&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ba07d44b478171107ec50d45d36d4321"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1427043504</payload_hash>
+        <record_name>Willkommen bei GreenCare!</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 17:39:20</sys_created_on>
+        <sys_id>a2fcda50475db1107ec50d45d36d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a855390fe0000001</sys_recorded_at>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 17:39:20</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>aafcda50ba5db110f3155bcbcd32b90a</update_guid>
+        <update_guid_history>aafcda50ba5db110f3155bcbcd32b90a:1427043504,a6fcda50d65db11003813b9824388006:-1854624559,4efcde90165db110f7720fad264977f8:-795583237,02fcde90715db1104e010c5f767928f4:-1854624559,f0fc9e909c5db1109fe37069ca91585d:-1808882470,ea58da1c921db11059cef8ec2fd0eaf1:-795583237,4858da1c781db110a4e1310662334869:59348127,00f65ed8ad1db110320cdf60cc1bc0f5:-914076637,cbe6521cff1db1106e563a276a6d6161:-1235668193,875ad04ffc81711038867bf438969f4f:-914076637,48599ccbb38171102fd7212fa2bc589c:1847937379,0b38d88b9d817110ded7e9edc926b778:2016592086,bf57984b4f81711029898072366b3531:-1309795936,2437984b888171106b491e618901cfc3:-804115563,8c17984b64817110f39eea0048d3334d:1306148505,7207d44bab817110393d3d1288510d23:1655775352</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Willkommen bei GreenCare!">17fcde90475db1107ec50d45d36d4333</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 17:39:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>93022bf19c374cc3975fc7ca921cadc9</sys_id>
+        <sys_metadata>ba07d44b478171107ec50d45d36d4321</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Willkommen bei GreenCare!</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_ba07d44b478171107ec50d45d36d4321</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_ba07d44b478171107ec50d45d36d4321">a2fcda50475db1107ec50d45d36d430b</sys_update_version>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 17:39:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

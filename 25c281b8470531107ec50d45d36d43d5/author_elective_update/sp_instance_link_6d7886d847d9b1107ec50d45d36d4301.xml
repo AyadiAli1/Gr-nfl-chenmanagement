@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>list</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">d238c6d847d9b1107ec50d45d36d43a4</sp_column>
+        <sp_page display_value="gfm_overview_gfarbeit">3efaa5584759b1107ec50d45d36d43ae</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 16:09:42</sys_created_on>
+        <sys_id>6d7886d847d9b1107ec50d45d36d4301</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Übersicht aller Grünflächen-Arbeiten</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_link_6d7886d847d9b1107ec50d45d36d4301</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 17:13:08</sys_updated_on>
+        <title>Übersicht aller Grünflächen-Arbeiten</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=6d7886d847d9b1107ec50d45d36d4301"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_link_6d7886d847d9b1107ec50d45d36d4301</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;list&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;d238c6d847d9b1107ec50d45d36d43a4&lt;/sp_column&gt;&lt;sp_page display_value="gfm_overview_gfarbeit"&gt;3efaa5584759b1107ec50d45d36d43ae&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lisa&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-11 16:09:42&lt;/sys_created_on&gt;&lt;sys_id&gt;6d7886d847d9b1107ec50d45d36d4301&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Übersicht aller Grünflächen-Arbeiten&lt;/sys_name&gt;&lt;sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Grünflächenmanagement"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_6d7886d847d9b1107ec50d45d36d4301&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lisa&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-11 17:13:08&lt;/sys_updated_on&gt;&lt;title&gt;Übersicht aller Grünflächen-Arbeiten&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6d7886d847d9b1107ec50d45d36d4301"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-295681441</payload_hash>
+        <record_name>Übersicht aller Grünflächen-Arbeiten</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 17:13:08</sys_created_on>
+        <sys_id>76f6d21c471db1107ec50d45d36d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a853b93150000001</sys_recorded_at>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 17:13:08</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>7ef6d21c3f1db11084869cce062fce6f</update_guid>
+        <update_guid_history>7ef6d21c3f1db11084869cce062fce6f:-295681441,b2f6d21c851db110350da8d994637a5b:-1728211303,b1f6921cba1db110c98f141671e21be6:-964503840,3df6921c1b1db11033f63bd0fd2819e0:-1728211303,66e6521c741db110b9fed8e3c20e3409:-964503840,bebf0214511db11077b0948a5b2dd014:1730851361,5bb80ed8e7d9b11002eaa0ec2dcb1afc:1840142749,e5788ed803d9b110fbca04a87170a0ce:-66100631</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Übersicht aller Grünflächen-Arbeiten">5ff6d21c471db1107ec50d45d36d43f8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 17:13:10</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>88c21d80d38640ca818a4b7d0effcf99</sys_id>
+        <sys_metadata>6d7886d847d9b1107ec50d45d36d4301</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Übersicht aller Grünflächen-Arbeiten</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_link_6d7886d847d9b1107ec50d45d36d4301</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_6d7886d847d9b1107ec50d45d36d4301">76f6d21c471db1107ec50d45d36d4370</sys_update_version>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 17:13:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

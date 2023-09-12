@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>list</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>2</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">37495e9c471db1107ec50d45d36d437f</sp_column>
+        <sp_page display_value="gfm_email">404ba5984759b1107ec50d45d36d4371</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 16:38:31</sys_created_on>
+        <sys_id>ab0f02d0471db1107ec50d45d36d43ab</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Geplante Grünflächenarbeiten</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_link_ab0f02d0471db1107ec50d45d36d43ab</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 17:24:36</sys_updated_on>
+        <title>Geplante Grünflächenarbeiten</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=ab0f02d0471db1107ec50d45d36d43ab"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_link_ab0f02d0471db1107ec50d45d36d43ab</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;list&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;37495e9c471db1107ec50d45d36d437f&lt;/sp_column&gt;&lt;sp_page display_value="gfm_email"&gt;404ba5984759b1107ec50d45d36d4371&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lisa&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-11 16:38:31&lt;/sys_created_on&gt;&lt;sys_id&gt;ab0f02d0471db1107ec50d45d36d43ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;25&lt;/sys_mod_count&gt;&lt;sys_name&gt;Geplante Grünflächenarbeiten&lt;/sys_name&gt;&lt;sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Grünflächenmanagement"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_ab0f02d0471db1107ec50d45d36d43ab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lisa&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-11 17:24:36&lt;/sys_updated_on&gt;&lt;title&gt;Geplante Grünflächenarbeiten&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ab0f02d0471db1107ec50d45d36d43ab"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1998625469</payload_hash>
+        <record_name>Geplante Grünflächenarbeiten</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 17:24:36</sys_created_on>
+        <sys_id>f69996dc471db1107ec50d45d36d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a854613a40000001</sys_recorded_at>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 17:24:36</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>fe9996dc9e1db1109b023d711dff5332</update_guid>
+        <update_guid_history>fe9996dc9e1db1109b023d711dff5332:-1998625469,fe9996dc8d1db11016a031bd7e1fdd2e:1708510850,429956dc3a1db1104be6c08b9bc4ed5f:-1998625469,429956dc2b1db110c1f39ffca03c115b:1708510850,ad9916dcb71db110a0acb1322a9497b5:-1998625469,ad9916dc1a1db110e5a50a4c111590b1:1708510850,b49916dc681db1109ab3e57dd5edb236:-1998625469,b49916dc6c1db110744a76e6865ce932:1708510850,1899d2dcce1db1109deaf6661a281ea3:-1998625469,0899d2dc231db11063ebc9937aeb8b9f:1708510850,9f89d2dc891db1103cd157d43eedf926:-1998625469,9f89d2dca01db110f1b10ebe02cc2b22:1708510850,4f59de9ccc1db1105203725d25e0925b:-1998625469,4f59de9cec1db1104ad74e211fac2157:1708510850,ea599e9ccb1db110c336d2d625c9f8f7:-1998625469,61599e9ce51db110760b68be45854979:1708510850,8147561cf91db1108d5cafa19ddb09db:1327260120,c727521ce71db1109fec760d8fd20a36:1812966405,5d07161c5a1db110e48896ffd62e8e67:-262145156,d1f6921c9a1db110b23d3f508592dbcc:-686121724,ccf6921cfb1db11048e7df85b93b1814:-1273707259,83e6521c301db110a64cdad758387a6a:-1861292794,e6e6521cc31db110c2b94e9e48d36411:-1273707259,816f0214751db110c8abd70a5685530b:-1861292794,d41f8ad0d71db110d640ed5353e33b3e:-524675545,770f02d0771db110585522cd51eab8ad:-295388088</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Geplante Grünflächenarbeiten">cfa9d6dc471db1107ec50d45d36d43c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 17:24:54</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>0e47d635e29d4aa0855e7902ca582240</sys_id>
+        <sys_metadata>ab0f02d0471db1107ec50d45d36d43ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Geplante Grünflächenarbeiten</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_link_ab0f02d0471db1107ec50d45d36d43ab</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_ab0f02d0471db1107ec50d45d36d43ab">f69996dc471db1107ec50d45d36d4333</sys_update_version>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 17:24:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

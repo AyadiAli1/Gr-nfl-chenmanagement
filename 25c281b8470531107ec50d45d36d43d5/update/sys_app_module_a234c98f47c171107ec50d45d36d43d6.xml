@@ -17,14 +17,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_1112736_gr_nfl_c.Admin,x_1112736_gr_nfl_c.GF-Mitarbeiter</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>claudia</sys_created_by>
         <sys_created_on>2023-09-07 14:00:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a234c98f47c171107ec50d45d36d43d6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Pflegeobjekte</sys_name>
         <sys_overrides/>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sys_app_module_a234c98f47c171107ec50d45d36d43d6</sys_update_name>
         <sys_updated_by>claudia</sys_updated_by>
-        <sys_updated_on>2023-09-07 14:00:01</sys_updated_on>
+        <sys_updated_on>2023-09-11 12:21:58</sys_updated_on>
         <timeline_page/>
         <title>Pflegeobjekte</title>
         <uncancelable>false</uncancelable>

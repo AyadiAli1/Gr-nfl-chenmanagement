@@ -35,7 +35,7 @@
 	var kollidiert_mit_arbeit = false; // -> für Email später
 	var kollidiert_mit_veranst = false; // -> für Email später
 	
-	// In Tabelle GF-Arbeiten nach Records suchen mit derselben GF und überschneidendem Datum
+	// Vergleich mit bestehenden GF-Arbeiten
 	arbeiten.addQuery('ort', current.ort);
 	arbeiten.addQuery('anfangsdatum', '<=', current.enddatum);
 	arbeiten.addQuery('enddatum', '>=', current.anfangsdatum);
@@ -47,17 +47,23 @@
         current.setAbortAction(true); // Verhindern Sie die Speicherung des neuen Datensatzes
     }
 	
-	
-	var gr = new GlideRecord('x_1112736_gr_nfl_c_m2m_x_1112736_g_x_1112736_g');
+	// Vergleich bestehenden Veranstaltungen
+	var gr = new GlideRecord('x_1112736_gr_nfl_c_m2m_x_1112736_g_x_1112736_g'); // Tabelle anliegend(GF,Gebäude)
+	gr.addJoinQuery('x_1112736_gr_nfl_c_veranstaltung', 'x_1112736_gr_nfl_c_gebaeude', 'gebaeude'); // Inner Join mit Tabelle Veranstaltung mit
 	gr.addQuery('x_1112736_gr_nfl_c_gruenflaechen', current.ort);
-	gr.addJoinQuery('x_1112736_gr_nfl_c_veranstaltung', 'x_1112736_gr_nfl_c_gebaeude', 'gebaeude');
 	gr.query();
 	
-	var i=0;
+	//var i=0;
+	
 	while(gr.next()) {
-		i++;
+		var veranstaltungsName = gr.getLink(); 
+		gs.info(veranstaltungsName);
+		/*gs.addInfoMessage(gr.getValue('x_1112736_gr_nfl_c_gebaeude').name+' , '+gr.getValue('x_1112736_gr_nfl_c_veranstaltung').name);
+		//gs.addInfoMessage('Es gibt '+gr.getRowCount()+' Veranstaltungen, die nebenan stattfinden.');*/
 	}
-	gs.addInfoMessage('Es gibt '+i+' Veranstaltungen, die nebenan stattfinden.');
+	
+	
+	
 	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -66,7 +72,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f3507603470d71107ec50d45d36d439b</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>test</sys_name>
         <sys_overrides/>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
@@ -74,7 +80,7 @@
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sys_script_f3507603470d71107ec50d45d36d439b</sys_update_name>
         <sys_updated_by>claudia</sys_updated_by>
-        <sys_updated_on>2023-09-08 11:47:12</sys_updated_on>
+        <sys_updated_on>2023-09-11 16:31:36</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

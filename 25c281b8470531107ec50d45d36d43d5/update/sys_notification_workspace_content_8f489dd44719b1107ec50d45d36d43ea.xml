@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_workspace_content">
+    <sys_notification_workspace_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <is_default>false</is_default>
+        <name>Neue Grünflächen-Arbeit erstellt</name>
+        <notification display_value="Neue Grünflächen-Arbeit erstellt">abe699944719b1107ec50d45d36d4300</notification>
+        <route display_value="Agent Workspace">cb1af195872023002941b53046cb0b4e</route>
+        <sys_class_name>sys_notification_workspace_content</sys_class_name>
+        <sys_created_by>claudia</sys_created_by>
+        <sys_created_on>2023-09-11 12:39:29</sys_created_on>
+        <sys_id>8f489dd44719b1107ec50d45d36d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Neue Grünflächen-Arbeit erstellt</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sys_notification_workspace_content_8f489dd44719b1107ec50d45d36d43ea</sys_update_name>
+        <sys_updated_by>claudia</sys_updated_by>
+        <sys_updated_on>2023-09-11 12:39:29</sys_updated_on>
+    </sys_notification_workspace_content>
+</record_update>

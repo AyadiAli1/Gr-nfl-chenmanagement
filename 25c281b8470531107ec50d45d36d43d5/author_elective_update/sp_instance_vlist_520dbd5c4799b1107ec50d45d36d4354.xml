@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>name</display_field>
+        <field_list/>
+        <filter/>
+        <glyph>tree</glyph>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">8babb51c4799b1107ec50d45d36d437b</sp_column>
+        <sp_page/>
+        <sp_widget display_value="vv_copy_simplelist">1b4255b247f439107ec50d45d36d43d9</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 15:19:47</sys_created_on>
+        <sys_id>520dbd5c4799b1107ec50d45d36d4354</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_vlist_520dbd5c4799b1107ec50d45d36d4354</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 15:21:15</sys_updated_on>
+        <table>x_1112736_gr_nfl_c_gruenflaechenarbeiten</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "typ,ort,pflegeobjekt,sys_created_on,status,kollision",
+		"displayValue": "typ,ort,pflegeobjekt,sys_created_on,status,kollision"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=520dbd5c4799b1107ec50d45d36d4354"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_vlist_520dbd5c4799b1107ec50d45d36d4354</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;name&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter/&gt;&lt;glyph&gt;tree&lt;/glyph&gt;&lt;id/&gt;&lt;maximum_entries&gt;10&lt;/maximum_entries&gt;&lt;order&gt;1&lt;/order&gt;&lt;order_by/&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;8babb51c4799b1107ec50d45d36d437b&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="vv_copy_simplelist"&gt;1b4255b247f439107ec50d45d36d43d9&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lisa&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-11 15:19:47&lt;/sys_created_on&gt;&lt;sys_id&gt;520dbd5c4799b1107ec50d45d36d4354&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Grünflächenmanagement"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_520dbd5c4799b1107ec50d45d36d4354&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lisa&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-11 15:21:15&lt;/sys_updated_on&gt;&lt;table&gt;x_1112736_gr_nfl_c_gruenflaechenarbeiten&lt;/table&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "typ,ort,pflegeobjekt,sys_created_on,status,kollision",
+		"displayValue": "typ,ort,pflegeobjekt,sys_created_on,status,kollision"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=520dbd5c4799b1107ec50d45d36d4354"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1194744783</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 15:21:15</sys_created_on>
+        <sys_id>3f5df99c4799b1107ec50d45d36d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a84d522520000001</sys_recorded_at>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 15:21:15</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>375df99c8699b110cf2c1bfccdbc561e</update_guid>
+        <update_guid_history>375df99c8699b110cf2c1bfccdbc561e:-1194744783,585d399c9d99b1107952ec65b6183d95:397858738,5a0dbd5c2999b110be6633b2ccd0b655:-189701016</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">fecef11047d9b1107ec50d45d36d4343</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 15:27:27</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>7cda20018aca4002a74bb65f95922be4</sys_id>
+        <sys_metadata>520dbd5c4799b1107ec50d45d36d4354</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_520dbd5c4799b1107ec50d45d36d4354</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_520dbd5c4799b1107ec50d45d36d4354">3f5df99c4799b1107ec50d45d36d431e</sys_update_version>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-11 15:27:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

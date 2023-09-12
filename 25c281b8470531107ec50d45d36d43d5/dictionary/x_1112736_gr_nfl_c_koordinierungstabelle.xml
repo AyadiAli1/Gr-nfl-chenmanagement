@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f4d3194e47cd35107ec50d45d36d43bd" label="Koordinierungstabelle" max_length="40" name="x_1112736_gr_nfl_c_koordinierungstabelle" type="collection">
-        <element label="Gruenflaechenarbeiten" mandatory="true" max_length="32" name="gruenflaechenarbeiten" reference="x_1112736_gr_nfl_c_gruenflaechenarbeiten" type="reference"/>
-        <element label="Kollision" max_length="4000" name="kollision" read_only="true" type="glide_list"/>
+        <element label="Arbeitstyp" max_length="32" name="arbeitstyp" reference="x_1112736_gr_nfl_c_gruenflaechenarbeitstyp" type="reference"/>
+        <element label="Belaestigung" max_length="40" name="belaestigung" type="string"/>
+        <element label="Benoetigte Gebaeude" max_length="32" name="benoetigte_gebaeude" reference="x_1112736_gr_nfl_c_gebaeude" type="reference"/>
+        <element label="Ende" max_length="40" name="ende" type="glide_date_time"/>
+        <element label="Gruenflaechenarbeit" mandatory="true" max_length="32" name="gruenflaechenarbeiten" reference="x_1112736_gr_nfl_c_gruenflaechenarbeiten" type="reference"/>
+        <element label="Kollision" max_length="4000" name="kollision" read_only="true" reference="x_1112736_gr_nfl_c_m2m_kollidiert_mit_arbeit_termin" type="reference"/>
+        <element label="Position" max_length="32" name="position" reference="x_1112736_gr_nfl_c_gruenflaechen" type="reference"/>
+        <element label="Start" max_length="40" name="start" type="glide_date_time"/>
         <index name="index">
+            <element name="arbeitstyp"/>
+        </index>
+        <index name="index2">
+            <element name="benoetigte_gebaeude"/>
+        </index>
+        <index name="index3">
             <element name="gruenflaechenarbeiten"/>
+        </index>
+        <index name="index4">
+            <element name="position"/>
         </index>
     </element>
 </database>

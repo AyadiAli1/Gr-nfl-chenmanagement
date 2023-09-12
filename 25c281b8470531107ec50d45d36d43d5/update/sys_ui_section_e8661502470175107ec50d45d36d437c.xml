@@ -42,6 +42,90 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>arbeitstyp</element>
+            <position>3</position>
+            <sys_created_by>bryan</sys_created_by>
+            <sys_created_on>2023-09-10 13:04:01</sys_created_on>
+            <sys_id>3354dc08475571107ec50d45d36d43b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1112736_gr_nfl_c_koordinierungstabelle" sys_domain="global" view="Default view">e8661502470175107ec50d45d36d437c</sys_ui_section>
+            <sys_updated_by>bryan</sys_updated_by>
+            <sys_updated_on>2023-09-10 13:04:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>position</element>
+            <position>4</position>
+            <sys_created_by>bryan</sys_created_by>
+            <sys_created_on>2023-09-10 13:04:02</sys_created_on>
+            <sys_id>44641488475571107ec50d45d36d436f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1112736_gr_nfl_c_koordinierungstabelle" sys_domain="global" view="Default view">e8661502470175107ec50d45d36d437c</sys_ui_section>
+            <sys_updated_by>bryan</sys_updated_by>
+            <sys_updated_on>2023-09-10 13:04:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start</element>
+            <position>5</position>
+            <sys_created_by>bryan</sys_created_by>
+            <sys_created_on>2023-09-10 13:04:02</sys_created_on>
+            <sys_id>c4641488475571107ec50d45d36d4376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1112736_gr_nfl_c_koordinierungstabelle" sys_domain="global" view="Default view">e8661502470175107ec50d45d36d437c</sys_ui_section>
+            <sys_updated_by>bryan</sys_updated_by>
+            <sys_updated_on>2023-09-10 13:04:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ende</element>
+            <position>6</position>
+            <sys_created_by>bryan</sys_created_by>
+            <sys_created_on>2023-09-10 13:04:02</sys_created_on>
+            <sys_id>08641488475571107ec50d45d36d437d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1112736_gr_nfl_c_koordinierungstabelle" sys_domain="global" view="Default view">e8661502470175107ec50d45d36d437c</sys_ui_section>
+            <sys_updated_by>bryan</sys_updated_by>
+            <sys_updated_on>2023-09-10 13:04:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>belaestigung</element>
+            <position>7</position>
+            <sys_created_by>bryan</sys_created_by>
+            <sys_created_on>2023-09-10 13:04:02</sys_created_on>
+            <sys_id>88641488475571107ec50d45d36d4384</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1112736_gr_nfl_c_koordinierungstabelle" sys_domain="global" view="Default view">e8661502470175107ec50d45d36d437c</sys_ui_section>
+            <sys_updated_by>bryan</sys_updated_by>
+            <sys_updated_on>2023-09-10 13:04:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>benoetigte_gebaeude</element>
+            <position>8</position>
+            <sys_created_by>bryan</sys_created_by>
+            <sys_created_on>2023-09-10 13:04:02</sys_created_on>
+            <sys_id>cc641488475571107ec50d45d36d438b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1112736_gr_nfl_c_koordinierungstabelle" sys_domain="global" view="Default view">e8661502470175107ec50d45d36d437c</sys_ui_section>
+            <sys_updated_by>bryan</sys_updated_by>
+            <sys_updated_on>2023-09-10 13:04:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

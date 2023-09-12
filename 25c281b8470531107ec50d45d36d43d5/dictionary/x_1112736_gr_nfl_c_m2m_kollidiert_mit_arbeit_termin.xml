@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f3912404479571107ec50d45d36d43ed" label="m2m_kollidiert_mit_arbeits_kollidiert_mit_termins" max_length="40" name="x_1112736_gr_nfl_c_m2m_kollidiert_mit_arbeit_termin" type="collection">
+        <element attributes="encode_utf8=false" label="kollidiert_mit_termins" max_length="32" name="x_1112736_gr_nfl_c_kollidiert_mit" reference="x_1112736_gr_nfl_c_kollidiert_mit" type="reference"/>
+        <element attributes="encode_utf8=false" label="kollidiert_mit_arbeits" max_length="32" name="x_1112736_gr_nfl_c_kollidiert_mit_arbeit" reference="x_1112736_gr_nfl_c_kollidiert_mit_arbeit" type="reference"/>
+    </element>
+</database>

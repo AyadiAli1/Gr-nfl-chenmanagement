@@ -32,7 +32,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">glide_list</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
         <name>x_1112736_gr_nfl_c_koordinierungstabelle</name>
@@ -40,7 +40,7 @@
         <primary>false</primary>
         <read_only>true</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_1112736_gr_nfl_c_m2m_kollidiert_mit_arbeit_termin">x_1112736_gr_nfl_c_m2m_kollidiert_mit_arbeit_termin</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -57,8 +57,8 @@
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sys_dictionary_x_1112736_gr_nfl_c_koordinierungstabelle_kollision</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-04 12:44:59</sys_updated_on>
+        <sys_updated_by>bryan</sys_updated_by>
+        <sys_updated_on>2023-09-10 14:03:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
