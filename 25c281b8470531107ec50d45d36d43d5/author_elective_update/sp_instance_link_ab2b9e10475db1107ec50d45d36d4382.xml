@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>home</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>2</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">73495e9c471db1107ec50d45d36d4381</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 17:31:28</sys_created_on>
+        <sys_id>ab2b9e10475db1107ec50d45d36d4382</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Neue Veranstaltungen</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_link_ab2b9e10475db1107ec50d45d36d4382</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-13 14:40:14</sys_updated_on>
+        <title>Neue Veranstaltungen</title>
+        <type>url</type>
+        <url>?id=form&amp;table=x_1112736_gr_nfl_c_veranstaltung</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=ab2b9e10475db1107ec50d45d36d4382"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_link_ab2b9e10475db1107ec50d45d36d4382</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;home&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;73495e9c471db1107ec50d45d36d4381&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lisa&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-11 17:31:28&lt;/sys_created_on&gt;&lt;sys_id&gt;ab2b9e10475db1107ec50d45d36d4382&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Neue Veranstaltungen&lt;/sys_name&gt;&lt;sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Grünflächenmanagement"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_ab2b9e10475db1107ec50d45d36d4382&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lisa&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-13 14:40:14&lt;/sys_updated_on&gt;&lt;title&gt;Neue Veranstaltungen&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;?id=form&amp;amp;table=x_1112736_gr_nfl_c_veranstaltung&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ab2b9e10475db1107ec50d45d36d4382"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-28444679</payload_hash>
+        <record_name>Neue Veranstaltungen</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-13 14:40:14</sys_created_on>
+        <sys_id>e2278cc9475175107ec50d45d36d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a8efc4fa50000001</sys_recorded_at>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-13 14:40:14</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>ea278cc99751751088f98732345abe7d</update_guid>
+        <update_guid_history>ea278cc99751751088f98732345abe7d:-28444679,1c170cc9f85175107cdbb7dce1ee6ecf:197502840,f7070cc9a05175102eda87fcec6bc199:-28444679,ff104881315175104e4c88c1e0064ac0:197502840,604b5adcb91db1106ac797420e9ae07b:-1000681034,632b9e10c25db1105ab941f13b77d084:-1591664252</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Neue Veranstaltungen">82474cc9475175107ec50d45d36d43fa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 14:40:45</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>31309aa2a1ce4e889d9fd4ffea011e40</sys_id>
+        <sys_metadata>ab2b9e10475db1107ec50d45d36d4382</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Neue Veranstaltungen</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_link_ab2b9e10475db1107ec50d45d36d4382</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_ab2b9e10475db1107ec50d45d36d4382">e2278cc9475175107ec50d45d36d437e</sys_update_version>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 14:40:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -35,7 +35,9 @@
 	var kollidiert_mit_arbeit = false; // -> für Email später
 	var kollidiert_mit_veranst = false; // -> für Email später
 	
-	// Vergleich mit bestehenden GF-Arbeiten
+	// Vergleich mit bestehenden GF-Arbeiten -> funktioniert
+	
+	/*
 	arbeiten.addQuery('ort', current.ort);
 	arbeiten.addQuery('anfangsdatum', '<=', current.enddatum);
 	arbeiten.addQuery('enddatum', '>=', current.anfangsdatum);
@@ -45,25 +47,41 @@
 	if (arbeiten.hasNext()) {
         gs.addErrorMessage('Es gibt bereits eine Grünflächenarbeit, die mit diesem Zeitraum kollidiert.');
         current.setAbortAction(true); // Verhindern Sie die Speicherung des neuen Datensatzes
-    }
+    }*/
 	
-	// Vergleich bestehenden Veranstaltungen
+	
+	
+	/*
 	var gr = new GlideRecord('x_1112736_gr_nfl_c_m2m_x_1112736_g_x_1112736_g'); // Tabelle anliegend(GF,Gebäude)
-	gr.addJoinQuery('x_1112736_gr_nfl_c_veranstaltung', 'x_1112736_gr_nfl_c_gebaeude', 'gebaeude'); // Inner Join mit Tabelle Veranstaltung mit
+	// gr.addJoinQuery('x_1112736_gr_nfl_c_veranstaltung', 'x_1112736_gr_nfl_c_gebaeude', 'gebaeude'); // Inner Join mit Tabelle Veranstaltung mit
+	gr.addJoinQuery('x_1112736_gr_nfl_c_veranstaltung');
 	gr.addQuery('x_1112736_gr_nfl_c_gruenflaechen', current.ort);
-	gr.query();
+	gr.query();*/
 	
-	//var i=0;
+	// Welche Gebäude schließen an die GF an?
 	
-	while(gr.next()) {
-		var veranstaltungsName = gr.getLink(); 
-		gs.info(veranstaltungsName);
-		/*gs.addInfoMessage(gr.getValue('x_1112736_gr_nfl_c_gebaeude').name+' , '+gr.getValue('x_1112736_gr_nfl_c_veranstaltung').name);
-		//gs.addInfoMessage('Es gibt '+gr.getRowCount()+' Veranstaltungen, die nebenan stattfinden.');*/
+	var anliegend = new GlideRecord('x_1112736_gr_nfl_c_m2m_x_1112736_g_x_1112736_g');
+	anliegend.addQuery('x_1112736_gr_nfl_c_gruenflaechen', current.ort);
+	anliegend.query();
+	
+	if(anliegend.next()){
+		gs.addInfoMessage(current.ort.getDisplayValue()+' liegt an '+anliegend.getRowCount()+' Gebäuden an.');
+	}
+	else{
+		gs.addErrorMessage('Keine Datensätze vorhanden. (Gebäude finden)');
 	}
 	
+	// Welche Veranstaltungen finden in den obigen Gebäuden statt? 
 	
+	anliegend.addJoinQuery('x_1112736_gr_nfl_c_veranstaltung','x_1112736_gr_nfl_c_gebaeude','gebaeude');
+	anliegend.query();
 	
+	if(anliegend.next()){
+		gs.addInfoMessage('Darin finden '+anliegend.getRowCount()+' Veranstaltungen statt.');
+	}
+	else{
+		gs.addErrorMessage('Keine Datensätze vorhanden (Veranstaltungen finden)');
+	}
 	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -72,7 +90,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f3507603470d71107ec50d45d36d439b</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>test</sys_name>
         <sys_overrides/>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
@@ -80,7 +98,7 @@
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sys_script_f3507603470d71107ec50d45d36d439b</sys_update_name>
         <sys_updated_by>claudia</sys_updated_by>
-        <sys_updated_on>2023-09-11 16:31:36</sys_updated_on>
+        <sys_updated_on>2023-09-13 14:59:53</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

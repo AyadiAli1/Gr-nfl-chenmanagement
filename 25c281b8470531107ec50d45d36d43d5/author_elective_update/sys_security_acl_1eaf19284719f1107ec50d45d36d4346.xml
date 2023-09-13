@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for all fields in x_1112736_gr_nfl_c_veranstaltung, for users with role x_1112736_gr_nfl_c.GF-Mitarbeiter.</description>
+        <name>x_1112736_gr_nfl_c_veranstaltung.*</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-12 08:06:01</sys_created_on>
+        <sys_id>1eaf19284719f1107ec50d45d36d4346</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1112736_gr_nfl_c_veranstaltung.*</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sys_security_acl_1eaf19284719f1107ec50d45d36d4346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-12 12:43:52</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sys_security_acl_1eaf19284719f1107ec50d45d36d4346</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>true</advanced><condition/><description>Allow read for all fields in x_1112736_gr_nfl_c_veranstaltung, for users with role x_1112736_gr_nfl_c.GF-Mitarbeiter.</description><name>x_1112736_gr_nfl_c_veranstaltung.*</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-12 08:06:01</sys_created_on><sys_id>1eaf19284719f1107ec50d45d36d4346</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x_1112736_gr_nfl_c_veranstaltung.*</sys_name><sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package><sys_policy/><sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope><sys_update_name>sys_security_acl_1eaf19284719f1107ec50d45d36d4346</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-12 12:43:52</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>434033680</payload_hash>
+        <record_name>x_1112736_gr_nfl_c_veranstaltung.*</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-12 12:43:52</sys_created_on>
+        <sys_id>94f22e28471df1107ec50d45d36d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a896b697b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-12 12:43:52</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>9cf22e280f1df1100429863135d4983d</update_guid>
+        <update_guid_history>9cf22e280f1df1100429863135d4983d:434033680,dce22a28611df1106101caef76cd296a:-2031879727,86a1ae64181df11044b7a015b258c204:1089120656,5253212cce19f11024b31cfdcaae8940:434395792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-13 12:53:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>287fdbe164cb45949642cc14c53cc590</sys_id>
+        <sys_metadata>1eaf19284719f1107ec50d45d36d4346</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1112736_gr_nfl_c_veranstaltung.*</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent display_value="x_1112736_gr_nfl_c_veranstaltung">286eb50f470971107ec50d45d36d431d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_1eaf19284719f1107ec50d45d36d4346</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_1eaf19284719f1107ec50d45d36d4346">94f22e28471df1107ec50d45d36d433e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-13 12:53:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

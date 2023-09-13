@@ -5,7 +5,7 @@
         <color>default</color>
         <css/>
         <display_field/>
-        <field_list>name,gebaeude,raum,person,typ</field_list>
+        <field_list>start,ende,name,typ,gebaeude,raum,person,beschreibung</field_list>
         <filter/>
         <glyph>home</glyph>
         <id/>
@@ -23,14 +23,14 @@
         <sys_created_by>lisa</sys_created_by>
         <sys_created_on>2023-09-11 15:48:47</sys_created_on>
         <sys_id>97a38e5447d9b1107ec50d45d36d434e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Alle Hochschul-Veranstaltungen</sys_name>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sp_instance_table_97a38e5447d9b1107ec50d45d36d434e</sys_update_name>
         <sys_updated_by>lisa</sys_updated_by>
-        <sys_updated_on>2023-09-11 15:50:40</sys_updated_on>
+        <sys_updated_on>2023-09-13 14:11:48</sys_updated_on>
         <table>x_1112736_gr_nfl_c_veranstaltung</table>
         <title>Alle Hochschul-Veranstaltungen</title>
         <url/>

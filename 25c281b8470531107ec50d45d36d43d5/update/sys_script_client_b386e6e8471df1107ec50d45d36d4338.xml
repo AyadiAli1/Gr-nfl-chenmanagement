@@ -11,11 +11,9 @@
         <name>hs_ma_kein_Zugriff</name>
         <order/>
         <script><![CDATA[function onLoad() {
-    var userRoles = g_user.getRoles(); // Get the user's roles
-    
-    // Check if the user has the role you want to restrict
+   
     if (g_user.hasRoleExactly('x_1112736_gr_nfl_c.Hochschulmitarbeiter')) {
-        // Apply the UI Policy that makes fields read-only
+       
         g_form.setReadOnly(true);
     }
 }
@@ -26,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b386e6e8471df1107ec50d45d36d4338</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>hs_ma_kein_Zugriff</sys_name>
         <sys_overrides/>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
@@ -34,7 +32,7 @@
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sys_script_client_b386e6e8471df1107ec50d45d36d4338</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-12 13:01:05</sys_updated_on>
+        <sys_updated_on>2023-09-13 12:59:35</sys_updated_on>
         <table>x_1112736_gr_nfl_c_gruenflaechenarbeiten</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

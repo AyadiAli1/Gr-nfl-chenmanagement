@@ -11,8 +11,8 @@
         <order>1</order>
         <placeholder/>
         <roles/>
-        <search_application display_value="Quick Action - KB Search ">492f958dc30101103f4fcd7b7940dd2a</search_application>
-        <search_results_configuration display_value="ESC Portal Search">9264a1c353571010069addeeff7b121e</search_results_configuration>
+        <search_application/>
+        <search_results_configuration/>
         <short_description>Team: Ali, Alice, Bryan, Claudia, Leonie, Lisa</short_description>
         <size>md</size>
         <sp_column display_value="1">ff4d9e90475db1107ec50d45d36d437b</sp_column>
@@ -22,14 +22,14 @@
         <sys_created_by>lisa</sys_created_by>
         <sys_created_on>2023-09-11 17:39:40</sys_created_on>
         <sys_id>1f0d12d0475db1107ec50d45d36d4388</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Willkommen bei GreenCare!</sys_name>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sp_instance_ais_1f0d12d0475db1107ec50d45d36d4388</sys_update_name>
         <sys_updated_by>lisa</sys_updated_by>
-        <sys_updated_on>2023-09-11 17:45:33</sys_updated_on>
+        <sys_updated_on>2023-09-13 15:03:52</sys_updated_on>
         <title>Willkommen bei GreenCare!</title>
         <url/>
         <widget_parameters><![CDATA[{

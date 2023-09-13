@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">41fdfbfc471175107ec50d45d36d43bf</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 14:00:06</sys_created_on>
+        <sys_id>6efd3ffc471175107ec50d45d36d438b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_6efd3ffc471175107ec50d45d36d438b</sys_update_name>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 14:02:40</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2 style=\"text-align: left;\">Impressum</h2>\r\n<p>&nbsp;</p>\r\n<p>Unternehmen: Greencare Gr&uuml;nfl&auml;chenmanagement GmbH</p>\r\n<p>Adresse: Musterstra&szlig;e 123, 12345 Musterstadt</p>\r\n<p>Telefon: +49 (0)123 456789</p>\r\n<p>E-Mail: <a href=\"mailto:info@greencare.com\" target=\"_new\">info@greencare.com</a></p>\r\n<p>Gesch&auml;ftsf&uuml;hrer: Max Mustermann</p>\r\n<p>Handelsregister: Amtsgericht Musterstadt, HRB 12345</p>\r\n<p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27a UStG: DE123456789</p>",
+		"displayValue": "<p>&nbsp;</p>\n<p>&nbsp;</p>\n<h2 style=\"text-align: left;\">Impressum</h2>\n<p>&nbsp;</p>\n<p>Unternehmen: Greencare Gr&uuml;nfl&auml;chenmanagement GmbH</p>\n<p>Adresse: Musterstra&szlig;e 123, 12345 Musterstadt</p>\n<p>Telefon: +49 (0)123 456789</p>\n<p>E-Mail: <a href=\"mailto:info@greencare.com\" target=\"_new\">info@greencare.com</a></p>\n<p>Gesch&auml;ftsf&uuml;hrer: Max Mustermann</p>\n<p>Handelsregister: Amtsgericht Musterstadt, HRB 12345</p>\n<p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27a UStG: DE123456789</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=6efd3ffc471175107ec50d45d36d438b"/>
+</record_update>

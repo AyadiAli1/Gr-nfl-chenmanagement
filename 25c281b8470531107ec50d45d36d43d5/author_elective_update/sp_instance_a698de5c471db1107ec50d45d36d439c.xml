@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">d998de5c471db1107ec50d45d36d43f1</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 17:20:13</sys_created_on>
+        <sys_id>a698de5c471db1107ec50d45d36d439c</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_a698de5c471db1107ec50d45d36d439c</sys_update_name>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 13:59:09</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2 style=\"text-align: left;\">Impressum</h2>\r\n<p>Unternehmen: Greencare Gr&uuml;nfl&auml;chenmanagement GmbH</p>\r\n<p>Adresse: Musterstra&szlig;e 123, 12345 Musterstadt</p>\r\n<p>Telefon: +49 (0)123 456789</p>\r\n<p>E-Mail: <a href=\"mailto:info@greencare.com\" target=\"_new\">info@greencare.com</a></p>\r\n<p>Gesch&auml;ftsf&uuml;hrer: Max Mustermann</p>\r\n<p>Handelsregister: Amtsgericht Musterstadt, HRB 12345</p>\r\n<p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27a UStG: DE123456789</p>\r\n<p><strong>Haftungsausschluss</strong></p>\r\n<p>Wir bem&uuml;hen uns, die Informationen auf dieser Webseite aktuell und korrekt zu halten. Trotzdem &uuml;bernehmen wir keine Haftung f&uuml;r die Richtigkeit, Vollst&auml;ndigkeit oder Aktualit&auml;t der bereitgestellten Informationen. F&uuml;r die Inhalte externer Links sind ausschlie&szlig;lich deren Betreiber verantwortlich.</p>\r\n<p><strong>Urheberrecht</strong></p>\r\n<p>Die Inhalte und Werke auf dieser Webseite unterliegen dem deutschen Urheberrecht. Die Vervielf&auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&szlig;erhalb der Grenzen des Urheberrechts bed&uuml;rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</p>\r\n<p><strong>Datenschutzerkl&auml;rung</strong></p>\r\n<p>Bitte beachten Sie unsere Datenschutzerkl&auml;rung, um Informationen dar&uuml;ber zu erhalten, wie wir Ihre pers&ouml;nlichen Daten handhaben.</p>",
+		"displayValue": "<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<h2 style=\"text-align: left;\">Impressum</h2>\n<p>Unternehmen: Greencare Gr&uuml;nfl&auml;chenmanagement GmbH</p>\n<p>Adresse: Musterstra&szlig;e 123, 12345 Musterstadt</p>\n<p>Telefon: +49 (0)123 456789</p>\n<p>E-Mail: <a href=\"mailto:info@greencare.com\" target=\"_new\">info@greencare.com</a></p>\n<p>Gesch&auml;ftsf&uuml;hrer: Max Mustermann</p>\n<p>Handelsregister: Amtsgericht Musterstadt, HRB 12345</p>\n<p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27a UStG: DE123456789</p>\n<p><strong>Haftungsausschluss</strong></p>\n<p>Wir bem&uuml;hen uns, die Informationen auf dieser Webseite aktuell und korrekt zu halten. Trotzdem &uuml;bernehmen wir keine Haftung f&uuml;r die Richtigkeit, Vollst&auml;ndigkeit oder Aktualit&auml;t der bereitgestellten Informationen. F&uuml;r die Inhalte externer Links sind ausschlie&szlig;lich deren Betreiber verantwortlich.</p>\n<p><strong>Urheberrecht</strong></p>\n<p>Die Inhalte und Werke auf dieser Webseite unterliegen dem deutschen Urheberrecht. Die Vervielf&auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&szlig;erhalb der Grenzen des Urheberrechts bed&uuml;rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</p>\n<p><strong>Datenschutzerkl&auml;rung</strong></p>\n<p>Bitte beachten Sie unsere Datenschutzerkl&auml;rung, um Informationen dar&uuml;ber zu erhalten, wie wir Ihre pers&ouml;nlichen Daten handhaben.</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=a698de5c471db1107ec50d45d36d439c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_a698de5c471db1107ec50d45d36d439c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;d998de5c471db1107ec50d45d36d43f1&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lisa&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-11 17:20:13&lt;/sys_created_on&gt;&lt;sys_id&gt;a698de5c471db1107ec50d45d36d439c&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Grünflächenmanagement"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_a698de5c471db1107ec50d45d36d439c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alice&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-13 13:59:09&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;h2 style=\"text-align: left;\"&gt;Impressum&lt;/h2&gt;\r\n&lt;p&gt;Unternehmen: Greencare Gr&amp;uuml;nfl&amp;auml;chenmanagement GmbH&lt;/p&gt;\r\n&lt;p&gt;Adresse: Musterstra&amp;szlig;e 123, 12345 Musterstadt&lt;/p&gt;\r\n&lt;p&gt;Telefon: +49 (0)123 456789&lt;/p&gt;\r\n&lt;p&gt;E-Mail: &lt;a href=\"mailto:info@greencare.com\" target=\"_new\"&gt;info@greencare.com&lt;/a&gt;&lt;/p&gt;\r\n&lt;p&gt;Gesch&amp;auml;ftsf&amp;uuml;hrer: Max Mustermann&lt;/p&gt;\r\n&lt;p&gt;Handelsregister: Amtsgericht Musterstadt, HRB 12345&lt;/p&gt;\r\n&lt;p&gt;Umsatzsteuer-Identifikationsnummer gem&amp;auml;&amp;szlig; &amp;sect; 27a UStG: DE123456789&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Haftungsausschluss&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;Wir bem&amp;uuml;hen uns, die Informationen auf dieser Webseite aktuell und korrekt zu halten. Trotzdem &amp;uuml;bernehmen wir keine Haftung f&amp;uuml;r die Richtigkeit, Vollst&amp;auml;ndigkeit oder Aktualit&amp;auml;t der bereitgestellten Informationen. F&amp;uuml;r die Inhalte externer Links sind ausschlie&amp;szlig;lich deren Betreiber verantwortlich.&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Urheberrecht&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;Die Inhalte und Werke auf dieser Webseite unterliegen dem deutschen Urheberrecht. Die Vervielf&amp;auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&amp;szlig;erhalb der Grenzen des Urheberrechts bed&amp;uuml;rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Datenschutzerkl&amp;auml;rung&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;Bitte beachten Sie unsere Datenschutzerkl&amp;auml;rung, um Informationen dar&amp;uuml;ber zu erhalten, wie wir Ihre pers&amp;ouml;nlichen Daten handhaben.&lt;/p&gt;",
+		"displayValue": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h2 style=\"text-align: left;\"&gt;Impressum&lt;/h2&gt;\n&lt;p&gt;Unternehmen: Greencare Gr&amp;uuml;nfl&amp;auml;chenmanagement GmbH&lt;/p&gt;\n&lt;p&gt;Adresse: Musterstra&amp;szlig;e 123, 12345 Musterstadt&lt;/p&gt;\n&lt;p&gt;Telefon: +49 (0)123 456789&lt;/p&gt;\n&lt;p&gt;E-Mail: &lt;a href=\"mailto:info@greencare.com\" target=\"_new\"&gt;info@greencare.com&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;Gesch&amp;auml;ftsf&amp;uuml;hrer: Max Mustermann&lt;/p&gt;\n&lt;p&gt;Handelsregister: Amtsgericht Musterstadt, HRB 12345&lt;/p&gt;\n&lt;p&gt;Umsatzsteuer-Identifikationsnummer gem&amp;auml;&amp;szlig; &amp;sect; 27a UStG: DE123456789&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Haftungsausschluss&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Wir bem&amp;uuml;hen uns, die Informationen auf dieser Webseite aktuell und korrekt zu halten. Trotzdem &amp;uuml;bernehmen wir keine Haftung f&amp;uuml;r die Richtigkeit, Vollst&amp;auml;ndigkeit oder Aktualit&amp;auml;t der bereitgestellten Informationen. F&amp;uuml;r die Inhalte externer Links sind ausschlie&amp;szlig;lich deren Betreiber verantwortlich.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Urheberrecht&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Die Inhalte und Werke auf dieser Webseite unterliegen dem deutschen Urheberrecht. Die Vervielf&amp;auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&amp;szlig;erhalb der Grenzen des Urheberrechts bed&amp;uuml;rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Datenschutzerkl&amp;auml;rung&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Bitte beachten Sie unsere Datenschutzerkl&amp;auml;rung, um Informationen dar&amp;uuml;ber zu erhalten, wie wir Ihre pers&amp;ouml;nlichen Daten handhaben.&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a698de5c471db1107ec50d45d36d439c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>654273923</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 13:59:09</sys_created_on>
+        <sys_id>e8cdb7fc471175107ec50d45d36d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a8ed6b0d00000001</sys_recorded_at>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 13:59:09</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>e0cdb7fc0f11751088e2a9143e4744c8</update_guid>
+        <update_guid_history>e0cdb7fc0f11751088e2a9143e4744c8:654273923,aaad37fc86117510fba6cf4c316b7302:882742495,185837388e11751094e9d797c912c85d:1484840341,71fa67b8b7dd35107b19c4a60cbd3361:-1470542943,74ea27b82fdd3510e86f6758dd8c4537:-352018176,6a6ae37821dd35107ca69237ef79c970:-1470542943,1ff9e3783ddd3510e04c77c7e395895c:-1078788681,ecc96b3869dd3510194c52633ac16195:1212015295,70692738c9dd3510c4e315a1a6effcc2:1929136941,4ece5254a15db1106fa221d725ae4991:-537882117,7c191a9cba1db110c7be63c3a4485cdd:-1289681431,49e8569cb21db1105f6fe7cc9e838c62:1444954133,e5d8165c111db1105d752c2b9e3ce436:-1767562411,6298de5ceb1db110e65c385ff6eb059e:-1528545787</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8c4e7330475175107ec50d45d36d43ca</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 14:01:18</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>13a56a2c795b459886ee729d45e6cf90</sys_id>
+        <sys_metadata>a698de5c471db1107ec50d45d36d439c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_a698de5c471db1107ec50d45d36d439c</sys_update_name>
+        <sys_update_version display_value="sp_instance_a698de5c471db1107ec50d45d36d439c">e8cdb7fc471175107ec50d45d36d43c8</sys_update_version>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 14:01:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
