@@ -132,6 +132,7 @@
 			kolli_tab.initialize();
 			kolli_tab.x_1112736_gr_nfl_c_gruenflaechenarbeiten = current.sys_id;
 			kolli_tab.x_1112736_gr_nfl_c_veranstaltung = veran_prio2.getValue('sys_id');
+			kolli_tab.insert();
 		}
 	}
 	else{
@@ -145,7 +146,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f3507603470d71107ec50d45d36d439b</sys_id>
-        <sys_mod_count>85</sys_mod_count>
+        <sys_mod_count>88</sys_mod_count>
         <sys_name>test</sys_name>
         <sys_overrides/>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
@@ -153,7 +154,7 @@
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sys_script_f3507603470d71107ec50d45d36d439b</sys_update_name>
         <sys_updated_by>claudia</sys_updated_by>
-        <sys_updated_on>2023-09-15 13:00:32</sys_updated_on>
+        <sys_updated_on>2023-09-15 13:12:01</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
