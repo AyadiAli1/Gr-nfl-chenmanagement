@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d21d4170474531107ec50d45d36d4311" label="Grünflächenarbeit" max_length="40" name="x_1112736_gr_nfl_c_gruenflaechenarbeiten" type="collection">
-        <element label="Start" mandatory="true" max_length="40" name="anfangsdatum" type="glide_date"/>
+        <element label="Start" max_length="40" name="anfangsdatum" type="glide_date"/>
         <element label="Kurzbeschreibung" max_length="40" name="beschreibung" type="string"/>
-        <element label="Ende" mandatory="true" max_length="40" name="enddatum" type="glide_date"/>
+        <element label="Ende" max_length="40" name="enddatum" type="glide_date"/>
+        <element label="Ende" mandatory="true" max_length="40" name="ende" type="glide_date_time"/>
         <element choice="1" default="1" label="Kollision" max_length="40" name="kollision" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Keine Kollision" value="1"/>
@@ -14,6 +15,7 @@
         <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element label="Grünfläche" mandatory="true" max_length="32" name="ort" reference="x_1112736_gr_nfl_c_gruenflaechen" type="reference"/>
         <element label="Pflegeobjekt" max_length="32" name="pflegeobjekt" reference="x_1112736_gr_nfl_c_pflegeobjekten" type="reference"/>
+        <element label="Start" mandatory="true" max_length="40" name="start" type="glide_date_time"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Angefangen" value="angefangen"/>

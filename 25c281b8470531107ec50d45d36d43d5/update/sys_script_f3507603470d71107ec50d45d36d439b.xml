@@ -32,9 +32,6 @@
 	// Add your code here
 	var arbeiten = new GlideRecord('x_1112736_gr_nfl_c_gruenflaechenarbeiten');
 	
-	var kollidiert_mit_arbeit = false; // -> für Email später
-	var kollidiert_mit_veranst = false; // -> für Email später
-	
 	// Vergleich mit bestehenden GF-Arbeiten -> funktioniert
 	
 	/*
@@ -71,7 +68,9 @@
 		gs.addErrorMessage('Keine Datensätze vorhanden. (Gebäude finden)');
 	}*/
 	
-	// Welche Veranstaltungen finden in den obigen Gebäuden statt? 
+	
+	
+	// Grünflächen und Gebäude prüfen
 
 	var arr = []; // betroffene Veranstaltungen
 	var anliegend = new GlideRecord('x_1112736_gr_nfl_c_m2m_x_1112736_g_x_1112736_g');
@@ -84,15 +83,59 @@
 	
 	var veran = new GlideRecord('x_1112736_gr_nfl_c_veranstaltung');
 	veran.addQuery('gebaeude', 'IN', arr.join(','));
-	veran.addQuery('start'.split(' ')[0], '<=', current.enddatum);
-	veran.addQuery('ende'.split(' ')[0], '>=', current.anfangsdatum);
 	veran.query();
 	
-	if(veran.next()){
-		gs.addInfoMessage('Darin finden '+veran.getRowCount()+' Veranstaltungen statt.');
+	
+	
+	// Daten überprüfen
+	
+	var arr2 = [];
+	var current_datetime_start = new GlideDateTime(current.start);
+	var current_datetime_ende = new GlideDateTime(current.ende);
+	
+	while(veran.next()){
+		//var prio = veran.getValue('prio');
+		var veran_datetime_start = new GlideDateTime(veran.getValue('start'));
+		var veran_datetime_ende = new GlideDateTime(veran.getValue('ende'));
+		if(veran_datetime_start <= current_datetime_ende && veran_datetime_ende >= current_datetime_start){
+			arr2.push(veran.getValue('sys_id'));
+		}
+	}
+
+	veran.addQuery('sys_id', 'IN', arr2); // Veranstaltungen, die mit GF-Arbeit kollidieren (ohne Prio)
+	veran.query();
+	
+	// Prios prüfen
+	
+	// Tabelle mit Prio1 
+	var veran_prio1 = new GlideRecord('x_1112736_gr_nfl_c_veranstaltung');
+	veran_prio1.addQuery('sys_id', 'IN', arr2);
+	veran_prio1.addQuery('prio', '1');
+	veran_prio1.query();
+	
+	// Tabelle mit Prio2
+	var veran_prio2 = new GlideRecord('x_1112736_gr_nfl_c_veranstaltung');
+	veran_prio2.addQuery('sys_id', 'IN', arr2);
+	veran_prio2.addQuery('prio', '2');
+	veran_prio2.query();
+	
+	// kollidiert mit Prio1?
+	if(veran_prio1.hasNext()){
+		gs.addErrorMessage('Überschneidung mit einer Veranstaltung der Priorität 1. Ändere das Datum!');
+        current.setAbortAction(true);
+	}
+	else if(veran_prio2.hasNext()){
+		gs.addInfoMessage('Überschneidung mit einer Veranstaltung der Priorität 2.');
+		
+		while(veran_prio2.next()){
+			var kolli_tab = new GlideRecord('x_1112736_gr_nfl_c_m2m_gf_arbeit_to_veranstaltung');
+			kolli_tab.initialize();
+			kolli_tab.x_1112736_gr_nfl_c_gruenflaechenarbeiten = current.sys_id;
+			kolli_tab.x_1112736_gr_nfl_c_veranstaltung = veran_prio2.getValue('sys_id');
+		}
 	}
 	else{
-		gs.addErrorMessage('Keine Datensätze vorhanden (Veranstaltungen finden)');
+		gs.addInfoMessage('Erfolgreich gespeichert.');
 	}
 	
 })(current, previous);]]></script>
@@ -102,7 +145,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f3507603470d71107ec50d45d36d439b</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>85</sys_mod_count>
         <sys_name>test</sys_name>
         <sys_overrides/>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
@@ -110,7 +153,7 @@
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sys_script_f3507603470d71107ec50d45d36d439b</sys_update_name>
         <sys_updated_by>claudia</sys_updated_by>
-        <sys_updated_on>2023-09-13 16:04:31</sys_updated_on>
+        <sys_updated_on>2023-09-15 13:00:32</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

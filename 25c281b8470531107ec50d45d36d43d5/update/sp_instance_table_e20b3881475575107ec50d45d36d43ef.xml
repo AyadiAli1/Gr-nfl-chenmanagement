@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>flache,name,beschreibung</field_list>
+        <filter/>
+        <glyph>tree</glyph>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by>flache</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">02c6536847ddf1107ec50d45d36d4350</sp_column>
+        <sp_page/>
+        <sp_widget display_value="gfm_tabelle">5f797401475575107ec50d45d36d4382</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-13 18:26:52</sys_created_on>
+        <sys_id>e20b3881475575107ec50d45d36d43ef</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Beschreibungen der Grünflächen</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_table_e20b3881475575107ec50d45d36d43ef</sys_update_name>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 18:47:53</sys_updated_on>
+        <table>x_1112736_gr_nfl_c_gruenflaechen</table>
+        <title>Beschreibungen der Grünflächen</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=e20b3881475575107ec50d45d36d43ef"/>
+</record_update>

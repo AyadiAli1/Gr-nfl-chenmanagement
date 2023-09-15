@@ -12,7 +12,7 @@
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <label>GF-Arbeit</label>
+        <label>Grünflächen-Arbeit</label>
         <order>100</order>
         <record_script/>
         <sc_cat_item/>
@@ -20,19 +20,19 @@
         <short_description/>
         <sp_page/>
         <sp_rectangle_menu/>
-        <sp_rectangle_menu_item display_value="Formulare">bfb339d04799b1107ec50d45d36d4327</sp_rectangle_menu_item>
+        <sp_rectangle_menu_item display_value="Erstellen">bfb339d04799b1107ec50d45d36d4327</sp_rectangle_menu_item>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>lisa</sys_created_by>
         <sys_created_on>2023-09-11 14:42:11</sys_created_on>
         <sys_id>9a54fd904799b1107ec50d45d36d4316</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>GF-Arbeit</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Grünflächen-Arbeit</sys_name>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_9a54fd904799b1107ec50d45d36d4316</sys_update_name>
         <sys_updated_by>lisa</sys_updated_by>
-        <sys_updated_on>2023-09-11 15:39:37</sys_updated_on>
+        <sys_updated_on>2023-09-13 18:48:13</sys_updated_on>
         <table/>
         <type>url</type>
         <url>/gfm/?id=form&amp;table=x_1112736_gr_nfl_c_gruenflaechenarbeiten</url>

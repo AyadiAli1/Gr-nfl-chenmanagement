@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>email_nach_neuer_veranstaltung</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Veranstaltung Record","reference":"x_1112736_gr_nfl_c_veranstaltung","reference_display":"Veranstaltung","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Veranstaltung Record","reference":"x_1112736_gr_nfl_c_veranstaltung","reference_display":"Veranstaltung","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.kollidiert_mit_gf.zustandigemitarbeiter.email","label":"Trigger - Record Created➛Veranstaltung Record➛Kollidiert mit gf➛Zuständiger Mitarbeiter➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Email_nach_neuer_Veranstaltung</name>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8b9f0804475571107ec50d45d36d4316</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Email_nach_neuer_Veranstaltung</sys_name>
         <sys_overrides/>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
@@ -39,12 +39,12 @@
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sys_hub_flow_8b9f0804475571107ec50d45d36d4316</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-10 12:44:49</sys_updated_on>
+        <sys_updated_on>2023-09-15 09:46:35</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=8b9f0804475571107ec50d45d36d4316"/>
     <sys_variable_value action="delete_multiple" query="document_key=8b9f0804475571107ec50d45d36d4316"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=8b9f0804475571107ec50d45d36d4316^sys_idNOT IN2aff0084475571107ec50d45d36d4343"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=8b9f0804475571107ec50d45d36d4316^sys_idNOT IN98275d69471571107ec50d45d36d437b"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
@@ -52,43 +52,43 @@
         <name>Created</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-10 12:44:49</sys_created_on>
-        <sys_id>2aff0084475571107ec50d45d36d4343</sys_id>
+        <sys_created_on>2023-09-15 09:46:34</sys_created_on>
+        <sys_id>98275d69471571107ec50d45d36d437b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-10 12:44:49</sys_updated_on>
+        <sys_updated_on>2023-09-15 09:46:34</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
     </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=2aff0084475571107ec50d45d36d4343"/>
+    <sys_variable_value action="delete_multiple" query="document_key=98275d69471571107ec50d45d36d437b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
-        <document_key>2aff0084475571107ec50d45d36d4343</document_key>
+        <document_key>98275d69471571107ec50d45d36d437b</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-10 12:44:49</sys_created_on>
-        <sys_id>6aff0084475571107ec50d45d36d4344</sys_id>
+        <sys_created_on>2023-09-15 09:46:34</sys_created_on>
+        <sys_id>98275d69471571107ec50d45d36d437c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-10 12:44:49</sys_updated_on>
-        <value>prio=1</value>
+        <sys_updated_on>2023-09-15 09:46:34</sys_updated_on>
+        <value>kollidiert_mit_gfISNOTEMPTY</value>
         <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
-        <document_key>2aff0084475571107ec50d45d36d4343</document_key>
+        <document_key>98275d69471571107ec50d45d36d437b</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-10 12:44:49</sys_created_on>
-        <sys_id>a2ff0084475571107ec50d45d36d4345</sys_id>
+        <sys_created_on>2023-09-15 09:46:34</sys_created_on>
+        <sys_id>d0275d69471571107ec50d45d36d437d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-10 12:44:49</sys_updated_on>
+        <sys_updated_on>2023-09-15 09:46:34</sys_updated_on>
         <value>x_1112736_gr_nfl_c_veranstaltung</value>
         <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
@@ -291,10 +291,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-10 12:44:49</sys_created_on>
         <sys_id>22ff0084475571107ec50d45d36d434c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-10 12:44:49</sys_updated_on>
+        <sys_updated_on>2023-09-15 09:46:35</sys_updated_on>
         <ui_id>b05ed85f-7c3d-4142-95ac-3c4c4731e8b5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=22ff0084475571107ec50d45d36d434c"/>
@@ -313,6 +313,18 @@
         <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=22ff0084475571107ec50d45d36d434c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>22ff0084475571107ec50d45d36d434c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-15 09:46:35</sys_created_on>
+        <sys_id>d8275d69471571107ec50d45d36d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-15 09:46:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.kollidiert_mit_gf.zustandigemitarbeiter.email}} </value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record</field>
         <id>22ff0084475571107ec50d45d36d434c</id>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>calendar</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b7495e9c471db1107ec50d45d36d437d</sp_column>
+        <sp_page display_value="gfm_calendar">f2eaed584759b1107ec50d45d36d433c</sp_page>
+        <sp_widget display_value="gfm_icon_link">de630c85475175107ec50d45d36d433e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 14:24:15</sys_created_on>
+        <sys_id>58830885475175107ec50d45d36d43e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Kalenderübersicht</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_link_58830885475175107ec50d45d36d43e5</sys_update_name>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 14:25:10</sys_updated_on>
+        <title>Kalenderübersicht</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=58830885475175107ec50d45d36d43e5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_link_58830885475175107ec50d45d36d43e5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;calendar&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;b7495e9c471db1107ec50d45d36d437d&lt;/sp_column&gt;&lt;sp_page display_value="gfm_calendar"&gt;f2eaed584759b1107ec50d45d36d433c&lt;/sp_page&gt;&lt;sp_widget display_value="gfm_icon_link"&gt;de630c85475175107ec50d45d36d433e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alice&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-13 14:24:15&lt;/sys_created_on&gt;&lt;sys_id&gt;58830885475175107ec50d45d36d43e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Kalenderübersicht&lt;/sys_name&gt;&lt;sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Grünflächenmanagement"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_58830885475175107ec50d45d36d43e5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alice&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-13 14:25:10&lt;/sys_updated_on&gt;&lt;title&gt;Kalenderübersicht&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=58830885475175107ec50d45d36d43e5"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1499062073</payload_hash>
+        <record_name>Kalenderübersicht</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 14:25:11</sys_created_on>
+        <sys_id>c6b380c5475175107ec50d45d36d435d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a8eee862e0000001</sys_recorded_at>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 14:25:11</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>ceb380c5c7517510d5289a73e512b15c</update_guid>
+        <update_guid_history>ceb380c5c7517510d5289a73e512b15c:-1499062073,2483088503517510534c79fa4cbe8ae7:-1999103797</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Kalenderübersicht">c4b47489471575107ec50d45d36d432a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-13 17:59:07</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>16f937d80a6445a48425d64e755ab8b1</sys_id>
+        <sys_metadata>58830885475175107ec50d45d36d43e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Kalenderübersicht</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_link_58830885475175107ec50d45d36d43e5</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_58830885475175107ec50d45d36d43e5">c6b380c5475175107ec50d45d36d435d</sys_update_version>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-13 17:59:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

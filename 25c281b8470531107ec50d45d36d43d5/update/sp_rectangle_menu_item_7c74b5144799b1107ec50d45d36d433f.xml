@@ -12,7 +12,7 @@
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <label>HS-Termin</label>
+        <label>Veranstaltung</label>
         <order>200</order>
         <record_script/>
         <sc_cat_item/>
@@ -20,19 +20,19 @@
         <short_description/>
         <sp_page/>
         <sp_rectangle_menu/>
-        <sp_rectangle_menu_item display_value="Formulare">bfb339d04799b1107ec50d45d36d4327</sp_rectangle_menu_item>
+        <sp_rectangle_menu_item display_value="Erstellen">bfb339d04799b1107ec50d45d36d4327</sp_rectangle_menu_item>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>lisa</sys_created_by>
         <sys_created_on>2023-09-11 14:42:35</sys_created_on>
         <sys_id>7c74b5144799b1107ec50d45d36d433f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>HS-Termin</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Veranstaltung</sys_name>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_7c74b5144799b1107ec50d45d36d433f</sys_update_name>
         <sys_updated_by>lisa</sys_updated_by>
-        <sys_updated_on>2023-09-11 15:42:15</sys_updated_on>
+        <sys_updated_on>2023-09-13 18:48:18</sys_updated_on>
         <table/>
         <type>page</type>
         <url>/gfm/?id=form&amp;table=x_1112736_gr_nfl_c_veranstaltung</url>

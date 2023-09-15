@@ -12,8 +12,8 @@
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <label>GF-Arbeitstypen</label>
-        <order>300</order>
+        <label>Grünflächen-Arbeitstypen</label>
+        <order>400</order>
         <record_script/>
         <sc_cat_item/>
         <sc_category/>
@@ -25,14 +25,14 @@
         <sys_created_by>lisa</sys_created_by>
         <sys_created_on>2023-09-11 14:51:53</sys_created_on>
         <sys_id>9d9679944799b1107ec50d45d36d436c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>GF-Arbeitstypen</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Grünflächen-Arbeitstypen</sys_name>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_9d9679944799b1107ec50d45d36d436c</sys_update_name>
         <sys_updated_by>lisa</sys_updated_by>
-        <sys_updated_on>2023-09-11 15:44:55</sys_updated_on>
+        <sys_updated_on>2023-09-13 18:04:29</sys_updated_on>
         <table/>
         <type>page</type>
         <url>/gfm/?id=gfm_management_gfarbeitstyp</url>

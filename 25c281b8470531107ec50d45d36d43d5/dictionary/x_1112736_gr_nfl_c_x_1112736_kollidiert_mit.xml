@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="d8fe51df474131107ec50d45d36d4313" label="m2m_Grünflächenarbeits_kollidiert_mit_termins" max_length="40" name="x_1112736_gr_nfl_c_x_1112736_kollidiert_mit" type="collection">
-        <element attributes="encode_utf8=false" label="Grünflächenarbeits" max_length="32" name="x_1112736_gr_nfl_c_gruenflaechenarbeiten" reference="x_1112736_gr_nfl_c_gruenflaechenarbeiten" type="reference"/>
-        <element attributes="encode_utf8=false" label="kollidiert_mit_termins" max_length="32" name="x_1112736_gr_nfl_c_kollidiert_mit" reference="x_1112736_gr_nfl_c_kollidiert_mit" type="reference"/>
-    </element>
-</database>

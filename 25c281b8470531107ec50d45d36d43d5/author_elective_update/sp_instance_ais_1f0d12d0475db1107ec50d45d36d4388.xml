@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ff4d9e90475db1107ec50d45d36d437b</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 17:39:40</sys_created_on>
+        <sys_id>1f0d12d0475db1107ec50d45d36d4388</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Willkommen bei GreenCare!</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_ais_1f0d12d0475db1107ec50d45d36d4388</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-13 18:11:12</sys_updated_on>
+        <title>Willkommen bei GreenCare!</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "{title: 'Wie können wir Ihnen weiterhelfen?', size: 'lg', color: 'white'}",
+		"displayValue": "{title: 'Wie können wir Ihnen weiterhelfen?', size: 'lg', color: 'white'}"
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=1f0d12d0475db1107ec50d45d36d4388"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_ais_1f0d12d0475db1107ec50d45d36d4388</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_ais"&gt;&lt;sp_instance_ais action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;ai_search_source_filter/&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;disable_all_suggestions&gt;false&lt;/disable_all_suggestions&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder/&gt;&lt;roles/&gt;&lt;search_application/&gt;&lt;search_results_configuration/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;ff4d9e90475db1107ec50d45d36d437b&lt;/sp_column&gt;&lt;sp_widget display_value="Homepage Search"&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sp_widget&gt;&lt;spell_check_font_size&gt;xl&lt;/spell_check_font_size&gt;&lt;sys_class_name&gt;sp_instance_ais&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lisa&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-11 17:39:40&lt;/sys_created_on&gt;&lt;sys_id&gt;1f0d12d0475db1107ec50d45d36d4388&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Willkommen bei GreenCare!&lt;/sys_name&gt;&lt;sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Grünflächenmanagement"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_ais_1f0d12d0475db1107ec50d45d36d4388&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lisa&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-13 18:11:12&lt;/sys_updated_on&gt;&lt;title&gt;Willkommen bei GreenCare!&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"typeahead_search": {
+		"value": "{title: 'Wie können wir Ihnen weiterhelfen?', size: 'lg', color: 'white'}",
+		"displayValue": "{title: 'Wie können wir Ihnen weiterhelfen?', size: 'lg', color: 'white'}"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_ais&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1f0d12d0475db1107ec50d45d36d4388"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1109934814</payload_hash>
+        <record_name>Willkommen bei GreenCare!</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-13 18:11:12</sys_created_on>
+        <sys_id>7c773c4d471575107ec50d45d36d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a8fbd746a0000001</sys_recorded_at>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-13 18:11:12</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>b4773c4d5d1575101d9aa3aab16579cf</update_guid>
+        <update_guid_history>b4773c4d5d1575101d9aa3aab16579cf:-1109934814,749c00c10d917510385285ecf5811e4f:-1519199604,6c5fbb7005517510ab067530a0b91bec:-1148879788,d13ff3705e5175106176e0030fa1a575:965351558,ed6e16142d5db110052cb141db98b519:-1148879788,445e5a14ca5db11062dc4cf5685e4bfe:-1288824876,f85d1ad0f65db110b400d19586ab4f5a:319508126,693d16d0225db110be080ef06aac34a8:1474348141,a70d12d0c15db1100b5770a55cd4de8a:1495552771</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Willkommen bei GreenCare!">b3478941479575107ec50d45d36d43c6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-13 19:20:29</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>1c4b8e6710404b1ba48b27cf9f35a579</sys_id>
+        <sys_metadata>1f0d12d0475db1107ec50d45d36d4388</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Willkommen bei GreenCare!</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_1f0d12d0475db1107ec50d45d36d4388</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_1f0d12d0475db1107ec50d45d36d4388">7c773c4d471575107ec50d45d36d43cf</sys_update_version>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-13 19:20:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="00d8c930474531107ec50d45d36d4356" label="Grünfläche" max_length="40" name="x_1112736_gr_nfl_c_gruenflaechen" type="collection">
-        <element label="Beschreibung" max_length="40" name="beschreibung" type="string"/>
+        <element label="Beschreibung" max_length="255" name="beschreibung" type="string"/>
         <element label="Bild" max_length="40" name="bild" type="user_image"/>
         <element display="true" label="Nummer" mandatory="true" max_length="40" name="flache" type="integer"/>
         <element choice="1" label="Kategorie" mandatory="true" max_length="40" name="kategorie" type="choice">

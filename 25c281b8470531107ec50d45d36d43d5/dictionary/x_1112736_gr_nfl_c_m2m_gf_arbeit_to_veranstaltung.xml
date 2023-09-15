@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1af499e5471571107ec50d45d36d4304" label="m2m_Grünflächenarbeits_Veranstaltungs" max_length="40" name="x_1112736_gr_nfl_c_m2m_gf_arbeit_to_veranstaltung" type="collection">
+        <element attributes="encode_utf8=false" label="Grünflächenarbeits" max_length="32" name="x_1112736_gr_nfl_c_gruenflaechenarbeiten" reference="x_1112736_gr_nfl_c_gruenflaechenarbeiten" type="reference"/>
+        <element attributes="encode_utf8=false" label="Veranstaltungs" max_length="32" name="x_1112736_gr_nfl_c_veranstaltung" reference="x_1112736_gr_nfl_c_veranstaltung" type="reference"/>
+    </element>
+</database>

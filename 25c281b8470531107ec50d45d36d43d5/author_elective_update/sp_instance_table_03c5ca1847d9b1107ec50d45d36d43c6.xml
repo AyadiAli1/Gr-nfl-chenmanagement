@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>name,typ,ort,beschreibung,anfangsdatum,enddatum,zustandigemitarbeiter,kollision</field_list>
+        <filter/>
+        <glyph>tree</glyph>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>2</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">01c5ce1847d9b1107ec50d45d36d431c</sp_column>
+        <sp_page/>
+        <sp_widget display_value="vv_autoliste">ba6fec7e47f039107ec50d45d36d43a1</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 15:58:03</sys_created_on>
+        <sys_id>03c5ca1847d9b1107ec50d45d36d43c6</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Alle eingetragenen Grünflächenarbeiten</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_table_03c5ca1847d9b1107ec50d45d36d43c6</sys_update_name>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 18:26:22</sys_updated_on>
+        <table>x_1112736_gr_nfl_c_gruenflaechenarbeiten</table>
+        <title>Alle eingetragenen Grünflächenarbeiten</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=03c5ca1847d9b1107ec50d45d36d43c6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_table_03c5ca1847d9b1107ec50d45d36d43c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list>name,typ,ort,beschreibung,anfangsdatum,enddatum,zustandigemitarbeiter,kollision</field_list><filter/><glyph>tree</glyph><id/><maximum_entries>10</maximum_entries><order>2</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">01c5ce1847d9b1107ec50d45d36d431c</sp_column><sp_page/><sp_widget display_value="vv_autoliste">ba6fec7e47f039107ec50d45d36d43a1</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>lisa</sys_created_by><sys_created_on>2023-09-11 15:58:03</sys_created_on><sys_id>03c5ca1847d9b1107ec50d45d36d43c6</sys_id><sys_mod_count>12</sys_mod_count><sys_name>Alle eingetragenen Grünflächenarbeiten</sys_name><sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package><sys_policy/><sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope><sys_update_name>sp_instance_table_03c5ca1847d9b1107ec50d45d36d43c6</sys_update_name><sys_updated_by>alice</sys_updated_by><sys_updated_on>2023-09-13 18:26:22</sys_updated_on><table>x_1112736_gr_nfl_c_gruenflaechenarbeiten</table><title>Alle eingetragenen Grünflächenarbeiten</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=03c5ca1847d9b1107ec50d45d36d43c6"/></record_update>]]></payload>
+        <payload_hash>754578523</payload_hash>
+        <record_name>Alle eingetragenen Grünflächenarbeiten</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 18:26:22</sys_created_on>
+        <sys_id>47eaf481475575107ec50d45d36d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a8fcb55fe0000001</sys_recorded_at>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 18:26:22</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>8feaf48123557510f70d916f2dab2b8b</update_guid>
+        <update_guid_history>8feaf48123557510f70d916f2dab2b8b:754578523,fe978e9817d9b11006467f6fa4addb9c:-1270596134,1817069892d9b1100a14c6aa0d914044:754578523,1c0746986ed9b110a2a1419c2426e8cf:-1270596134,7be606989ed9b110446ed32486f8ffb9:754578523,e3e60698cbd9b110189df708d7dd16ae:-1270596134,6de606987dd9b11061ff5e0fd45b9423:754578523,90e682982ed9b110ca0aad5da299d623:-1270596134,15b64e585dd9b110f87e27b7947a0d21:754578523,fc864e5846d9b1103b3c857f37899999:-1270596134,7e760e58f9d9b110eb967673a8db19d0:754578523,7e06465871d9b1101388036304e62c53:-1270596134,c7c5ca18f1d9b1102c6628f003dc56c7:-2040682974</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Alle eingetragenen Grünflächenarbeiten">5b6b7881475575107ec50d45d36d43e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 18:28:34</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>0461c2ee8af24344802502312084d090</sys_id>
+        <sys_metadata>03c5ca1847d9b1107ec50d45d36d43c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alle eingetragenen Grünflächenarbeiten</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_table_03c5ca1847d9b1107ec50d45d36d43c6</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_03c5ca1847d9b1107ec50d45d36d43c6">47eaf481475575107ec50d45d36d438c</sys_update_version>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 18:28:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>name,typ,ort,beschreibung,anfangsdatum,enddatum,zustandigemitarbeiter,kollision</field_list>
+        <filter/>
+        <glyph>tree</glyph>
+        <id/>
+        <maximum_entries>20</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">01c5ce1847d9b1107ec50d45d36d431c</sp_column>
+        <sp_page/>
+        <sp_widget display_value="gfm_tabelle">5f797401475575107ec50d45d36d4382</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 18:26:21</sys_created_on>
+        <sys_id>faeab481475575107ec50d45d36d4304</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Alle Grünflächen-Arbeiten</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_table_faeab481475575107ec50d45d36d4304</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-13 19:25:38</sys_updated_on>
+        <table>x_1112736_gr_nfl_c_gruenflaechenarbeiten</table>
+        <title>Alle Grünflächen-Arbeiten</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=faeab481475575107ec50d45d36d4304"/>
+</record_update>

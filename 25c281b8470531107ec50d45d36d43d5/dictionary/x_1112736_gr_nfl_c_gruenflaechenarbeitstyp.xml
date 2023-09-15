@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="65f2d50e47cd35107ec50d45d36d43a1" label="Gruenflaechenarbeitstyp" max_length="40" name="x_1112736_gr_nfl_c_gruenflaechenarbeitstyp" type="collection">
-        <element label="Beschreibung" max_length="40" name="beschreibung" type="string"/>
-        <element choice="1" label="Kategorie" mandatory="true" max_length="40" name="kategorie" type="choice">
-            <choice/>
+    <element db_object_id="65f2d50e47cd35107ec50d45d36d43a1" label="Arbeitstyp" max_length="40" name="x_1112736_gr_nfl_c_gruenflaechenarbeitstyp" type="collection">
+        <element label="belaestigungstyp" max_length="40" name="belaestigungstyp" type="string"/>
+        <element label="Beschreibung" max_length="150" name="beschreibung" type="string"/>
+        <element choice="2" label="Kategorie" mandatory="true" max_length="40" name="kategorie" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Pflanzenarbeit" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Wegarbeit" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Wiesenarbeit" sequence="3" value="1"/>
+            </choice>
         </element>
         <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
     </element>

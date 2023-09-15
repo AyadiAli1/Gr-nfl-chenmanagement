@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">10778d41479575107ec50d45d36d43f5</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 14:00:08</sys_created_on>
+        <sys_id>03fd3ffc471175107ec50d45d36d43e7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_03fd3ffc471175107ec50d45d36d43e7</sys_update_name>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 21:54:41</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Haftungsausschluss</strong></p>\r\n<p>Wir bem&uuml;hen uns, die Informationen auf dieser Webseite aktuell und korrekt zu halten. Trotzdem &uuml;bernehmen wir keine Haftung f&uuml;r die Richtigkeit, Vollst&auml;ndigkeit oder Aktualit&auml;t der bereitgestellten Informationen. F&uuml;r die Inhalte externer Links sind ausschlie&szlig;lich deren Betreiber verantwortlich.</p>\r\n<p><strong>Urheberrecht</strong></p>\r\n<p>Die Inhalte und Werke auf dieser Webseite unterliegen dem deutschen Urheberrecht. Die Vervielf&auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&szlig;erhalb der Grenzen des Urheberrechts bed&uuml;rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</p>\r\n<p><strong>Datenschutzerkl&auml;rung</strong></p>\r\n<p>Bitte beachten Sie unsere Datenschutzerkl&auml;rung, um Informationen dar&uuml;ber zu erhalten, wie wir Ihre pers&ouml;nlichen Daten handhaben.</p>\r\n<p>&nbsp;</p>",
+		"displayValue": "<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Haftungsausschluss</strong></p>\n<p>Wir bem&uuml;hen uns, die Informationen auf dieser Webseite aktuell und korrekt zu halten. Trotzdem &uuml;bernehmen wir keine Haftung f&uuml;r die Richtigkeit, Vollst&auml;ndigkeit oder Aktualit&auml;t der bereitgestellten Informationen. F&uuml;r die Inhalte externer Links sind ausschlie&szlig;lich deren Betreiber verantwortlich.</p>\n<p><strong>Urheberrecht</strong></p>\n<p>Die Inhalte und Werke auf dieser Webseite unterliegen dem deutschen Urheberrecht. Die Vervielf&auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&szlig;erhalb der Grenzen des Urheberrechts bed&uuml;rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</p>\n<p><strong>Datenschutzerkl&auml;rung</strong></p>\n<p>Bitte beachten Sie unsere Datenschutzerkl&auml;rung, um Informationen dar&uuml;ber zu erhalten, wie wir Ihre pers&ouml;nlichen Daten handhaben.</p>\n<p>&nbsp;</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=03fd3ffc471175107ec50d45d36d43e7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_03fd3ffc471175107ec50d45d36d43e7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;10778d41479575107ec50d45d36d43f5&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alice&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-13 14:00:08&lt;/sys_created_on&gt;&lt;sys_id&gt;03fd3ffc471175107ec50d45d36d43e7&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Grünflächenmanagement"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_03fd3ffc471175107ec50d45d36d43e7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alice&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-13 21:54:41&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Haftungsausschluss&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;Wir bem&amp;uuml;hen uns, die Informationen auf dieser Webseite aktuell und korrekt zu halten. Trotzdem &amp;uuml;bernehmen wir keine Haftung f&amp;uuml;r die Richtigkeit, Vollst&amp;auml;ndigkeit oder Aktualit&amp;auml;t der bereitgestellten Informationen. F&amp;uuml;r die Inhalte externer Links sind ausschlie&amp;szlig;lich deren Betreiber verantwortlich.&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Urheberrecht&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;Die Inhalte und Werke auf dieser Webseite unterliegen dem deutschen Urheberrecht. Die Vervielf&amp;auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&amp;szlig;erhalb der Grenzen des Urheberrechts bed&amp;uuml;rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.&lt;/p&gt;\r\n&lt;p&gt;&lt;strong&gt;Datenschutzerkl&amp;auml;rung&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;Bitte beachten Sie unsere Datenschutzerkl&amp;auml;rung, um Informationen dar&amp;uuml;ber zu erhalten, wie wir Ihre pers&amp;ouml;nlichen Daten handhaben.&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+		"displayValue": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Haftungsausschluss&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Wir bem&amp;uuml;hen uns, die Informationen auf dieser Webseite aktuell und korrekt zu halten. Trotzdem &amp;uuml;bernehmen wir keine Haftung f&amp;uuml;r die Richtigkeit, Vollst&amp;auml;ndigkeit oder Aktualit&amp;auml;t der bereitgestellten Informationen. F&amp;uuml;r die Inhalte externer Links sind ausschlie&amp;szlig;lich deren Betreiber verantwortlich.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Urheberrecht&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Die Inhalte und Werke auf dieser Webseite unterliegen dem deutschen Urheberrecht. Die Vervielf&amp;auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&amp;szlig;erhalb der Grenzen des Urheberrechts bed&amp;uuml;rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Datenschutzerkl&amp;auml;rung&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Bitte beachten Sie unsere Datenschutzerkl&amp;auml;rung, um Informationen dar&amp;uuml;ber zu erhalten, wie wir Ihre pers&amp;ouml;nlichen Daten handhaben.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=03fd3ffc471175107ec50d45d36d43e7"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1351499564</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 21:54:41</sys_created_on>
+        <sys_id>aa9a6dc1471975107ec50d45d36d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a908a0d960000001</sys_recorded_at>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 21:54:41</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>a29a6dc1a5197510bf063f0c8a8d687a</update_guid>
+        <update_guid_history>a29a6dc1a5197510bf063f0c8a8d687a:-1351499564,f277cd410195751089ef4a9cb141a1fc:1334213045,07be3f30cd5175105872888b8638a855:564216170,cbae773085517510b7e8c3277313e782:-1801216378,942e7ffc571175105a6216087591e4d1:1284681478,c7fd3ffc3b1175101f2397667bda5de8:-1108504392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">985b6dc1471975107ec50d45d36d439f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 21:57:49</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1a21368ec9af4017bc4599406a9583a9</sys_id>
+        <sys_metadata>03fd3ffc471175107ec50d45d36d43e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_03fd3ffc471175107ec50d45d36d43e7</sys_update_name>
+        <sys_update_version display_value="sp_instance_03fd3ffc471175107ec50d45d36d43e7">aa9a6dc1471975107ec50d45d36d437a</sys_update_version>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 21:57:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

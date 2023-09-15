@@ -3,6 +3,7 @@
         <element label="Kurzbeschreibung" max_length="40" name="beschreibung" type="string"/>
         <element label="Ende" mandatory="true" max_length="40" name="ende" type="glide_date_time"/>
         <element label="Gebäude" mandatory="true" max_length="32" name="gebaeude" reference="x_1112736_gr_nfl_c_gebaeude" type="reference"/>
+        <element label="Kollidiert mit gf" max_length="32" name="kollidiert_mit_gf" reference="x_1112736_gr_nfl_c_gruenflaechenarbeiten" type="reference"/>
         <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Ansprechpartner" mandatory="true" max_length="32" name="person" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element choice="1" label="Priorität" max_length="40" name="prio" read_only="true" type="choice" use_dynamic_default="true">
@@ -42,6 +43,9 @@
             <element name="gebaeude"/>
         </index>
         <index name="index2">
+            <element name="kollidiert_mit_gf"/>
+        </index>
+        <index name="index3">
             <element name="person"/>
         </index>
     </element>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>start,ende,name,typ,gebaeude,raum,person,beschreibung</field_list>
+        <filter/>
+        <glyph>home</glyph>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>2</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">0583469447d9b1107ec50d45d36d4379</sp_column>
+        <sp_page/>
+        <sp_widget display_value="vv_autoliste">ba6fec7e47f039107ec50d45d36d43a1</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-11 15:48:47</sys_created_on>
+        <sys_id>97a38e5447d9b1107ec50d45d36d434e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Alle Hochschul-Veranstaltungen</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_table_97a38e5447d9b1107ec50d45d36d434e</sys_update_name>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 18:22:50</sys_updated_on>
+        <table>x_1112736_gr_nfl_c_veranstaltung</table>
+        <title>Alle Hochschul-Veranstaltungen</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=97a38e5447d9b1107ec50d45d36d434e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_table_97a38e5447d9b1107ec50d45d36d434e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list>start,ende,name,typ,gebaeude,raum,person,beschreibung</field_list><filter/><glyph>home</glyph><id/><maximum_entries>10</maximum_entries><order>2</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">0583469447d9b1107ec50d45d36d4379</sp_column><sp_page/><sp_widget display_value="vv_autoliste">ba6fec7e47f039107ec50d45d36d43a1</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>lisa</sys_created_by><sys_created_on>2023-09-11 15:48:47</sys_created_on><sys_id>97a38e5447d9b1107ec50d45d36d434e</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Alle Hochschul-Veranstaltungen</sys_name><sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package><sys_policy/><sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope><sys_update_name>sp_instance_table_97a38e5447d9b1107ec50d45d36d434e</sys_update_name><sys_updated_by>alice</sys_updated_by><sys_updated_on>2023-09-13 18:22:50</sys_updated_on><table>x_1112736_gr_nfl_c_veranstaltung</table><title>Alle Hochschul-Veranstaltungen</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=97a38e5447d9b1107ec50d45d36d434e"/></record_update>]]></payload>
+        <payload_hash>-1546338416</payload_hash>
+        <record_name>Alle Hochschul-Veranstaltungen</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 18:22:50</sys_created_on>
+        <sys_id>931ab441475575107ec50d45d36d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a8fc8193b0000001</sys_recorded_at>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 18:22:50</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>db1ab441e555751052d1f9fa3d514d64</update_guid>
+        <update_guid_history>db1ab441e555751052d1f9fa3d514d64:-1546338416,46a000c1065175104090c110a25636a2:-1299524081,b21482d43bd9b110984e1a58fdcada32:1944673030,4904ca94a2d9b1108a294397bec9e3de:131487813,13e38e9469d9b110093a07ebab35979e:1392239556,44d30e94c9d9b110598762744ab55d38:1145425221,9fa38e54bbd9b1103a6c33e08812454f:596235282</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Alle Hochschul-Veranstaltungen">cdca3481475575107ec50d45d36d4318</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 18:25:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>94ead381b860450e9ea07ac7a8f57ba4</sys_id>
+        <sys_metadata>97a38e5447d9b1107ec50d45d36d434e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alle Hochschul-Veranstaltungen</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_table_97a38e5447d9b1107ec50d45d36d434e</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_97a38e5447d9b1107ec50d45d36d434e">931ab441475575107ec50d45d36d4365</sys_update_version>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 18:25:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

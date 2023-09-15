@@ -12,7 +12,7 @@
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <label>GF-Arbeiten</label>
+        <label>Grünflächen-Arbeiten</label>
         <order>300</order>
         <record_script/>
         <sc_cat_item/>
@@ -25,14 +25,14 @@
         <sys_created_by>lisa</sys_created_by>
         <sys_created_on>2023-09-11 14:50:17</sys_created_on>
         <sys_id>3b26b9944799b1107ec50d45d36d4398</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>GF-Arbeiten</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Grünflächen-Arbeiten</sys_name>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_3b26b9944799b1107ec50d45d36d4398</sys_update_name>
         <sys_updated_by>lisa</sys_updated_by>
-        <sys_updated_on>2023-09-11 14:50:17</sys_updated_on>
+        <sys_updated_on>2023-09-13 18:16:02</sys_updated_on>
         <table/>
         <type>page</type>
         <url/>

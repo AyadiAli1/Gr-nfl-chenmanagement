@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">62c0a33047dd35107ec50d45d36d430c</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 11:48:48</sys_created_on>
+        <sys_id>1fef1fbc479d35107ec50d45d36d434c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_1fef1fbc479d35107ec50d45d36d434c</sys_update_name>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 11:59:06</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p style=\"padding-left: 40px;\"><strong>1&nbsp;&nbsp; Parkplatz Kindergarten</strong></p>\r\n<p style=\"padding-left: 40px;\"><strong>2&nbsp;&nbsp; Hinterseite Geb&auml;ude W</strong></p>\r\n<p style=\"padding-left: 40px;\"><strong>3&nbsp;&nbsp; Mensa S&uuml;dpark</strong></p>\r\n<p style=\"padding-left: 40px;\"><strong>4&nbsp;&nbsp; Zwischenplatz Geb&auml;ude B, C, F, G, H, W</strong></p>\r\n<p style=\"padding-left: 40px;\"><strong>5&nbsp;&nbsp; Parkplatz Wei&szlig;hausstra&szlig;e</strong></p>\r\n<p style=\"padding-left: 40px;\"><strong>6&nbsp;&nbsp; Park &amp; Teich</strong></p>\r\n<p style=\"padding-left: 40px;\"><strong>7&nbsp;&nbsp; Mensa Eupener Stra&szlig;e</strong></p>\r\n<p style=\"padding-left: 40px;\"><strong>8&nbsp;&nbsp; Hinterseite Geb&auml;ude D</strong></p>\r\n<p style=\"padding-left: 40px;\"><strong>9&nbsp;&nbsp; Vorderseite Geb&auml;ude D, Bibliothek</strong></p>\r\n<p style=\"padding-left: 40px;\"><strong>10&nbsp;&nbsp; Parkplatz Eupener Stra&szlig;e</strong></p>",
+		"displayValue": "<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p style=\"padding-left: 40px;\"><strong>1&nbsp;&nbsp; Parkplatz Kindergarten</strong></p>\n<p style=\"padding-left: 40px;\"><strong>2&nbsp;&nbsp; Hinterseite Geb&auml;ude W</strong></p>\n<p style=\"padding-left: 40px;\"><strong>3&nbsp;&nbsp; Mensa S&uuml;dpark</strong></p>\n<p style=\"padding-left: 40px;\"><strong>4&nbsp;&nbsp; Zwischenplatz Geb&auml;ude B, C, F, G, H, W</strong></p>\n<p style=\"padding-left: 40px;\"><strong>5&nbsp;&nbsp; Parkplatz Wei&szlig;hausstra&szlig;e</strong></p>\n<p style=\"padding-left: 40px;\"><strong>6&nbsp;&nbsp; Park &amp; Teich</strong></p>\n<p style=\"padding-left: 40px;\"><strong>7&nbsp;&nbsp; Mensa Eupener Stra&szlig;e</strong></p>\n<p style=\"padding-left: 40px;\"><strong>8&nbsp;&nbsp; Hinterseite Geb&auml;ude D</strong></p>\n<p style=\"padding-left: 40px;\"><strong>9&nbsp;&nbsp; Vorderseite Geb&auml;ude D, Bibliothek</strong></p>\n<p style=\"padding-left: 40px;\"><strong>10&nbsp;&nbsp; Parkplatz Eupener Stra&szlig;e</strong></p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=1fef1fbc479d35107ec50d45d36d434c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_1fef1fbc479d35107ec50d45d36d434c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;62c0a33047dd35107ec50d45d36d430c&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alice&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-13 11:48:48&lt;/sys_created_on&gt;&lt;sys_id&gt;1fef1fbc479d35107ec50d45d36d434c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Grünflächenmanagement"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_1fef1fbc479d35107ec50d45d36d434c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alice&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-13 11:59:06&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;1&amp;nbsp;&amp;nbsp; Parkplatz Kindergarten&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;2&amp;nbsp;&amp;nbsp; Hinterseite Geb&amp;auml;ude W&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;3&amp;nbsp;&amp;nbsp; Mensa S&amp;uuml;dpark&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;4&amp;nbsp;&amp;nbsp; Zwischenplatz Geb&amp;auml;ude B, C, F, G, H, W&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;5&amp;nbsp;&amp;nbsp; Parkplatz Wei&amp;szlig;hausstra&amp;szlig;e&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;6&amp;nbsp;&amp;nbsp; Park &amp;amp; Teich&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;7&amp;nbsp;&amp;nbsp; Mensa Eupener Stra&amp;szlig;e&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;8&amp;nbsp;&amp;nbsp; Hinterseite Geb&amp;auml;ude D&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;9&amp;nbsp;&amp;nbsp; Vorderseite Geb&amp;auml;ude D, Bibliothek&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;10&amp;nbsp;&amp;nbsp; Parkplatz Eupener Stra&amp;szlig;e&lt;/strong&gt;&lt;/p&gt;",
+		"displayValue": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;1&amp;nbsp;&amp;nbsp; Parkplatz Kindergarten&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;2&amp;nbsp;&amp;nbsp; Hinterseite Geb&amp;auml;ude W&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;3&amp;nbsp;&amp;nbsp; Mensa S&amp;uuml;dpark&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;4&amp;nbsp;&amp;nbsp; Zwischenplatz Geb&amp;auml;ude B, C, F, G, H, W&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;5&amp;nbsp;&amp;nbsp; Parkplatz Wei&amp;szlig;hausstra&amp;szlig;e&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;6&amp;nbsp;&amp;nbsp; Park &amp;amp; Teich&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;7&amp;nbsp;&amp;nbsp; Mensa Eupener Stra&amp;szlig;e&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;8&amp;nbsp;&amp;nbsp; Hinterseite Geb&amp;auml;ude D&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;9&amp;nbsp;&amp;nbsp; Vorderseite Geb&amp;auml;ude D, Bibliothek&lt;/strong&gt;&lt;/p&gt;\n&lt;p style=\"padding-left: 40px;\"&gt;&lt;strong&gt;10&amp;nbsp;&amp;nbsp; Parkplatz Eupener Stra&amp;szlig;e&lt;/strong&gt;&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1fef1fbc479d35107ec50d45d36d434c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1767480588</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 11:59:06</sys_created_on>
+        <sys_id>c2426f3047dd35107ec50d45d36d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a8e68c8d80000001</sys_recorded_at>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 11:59:06</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>ca426f30abdd3510928bdd66671bff37</update_guid>
+        <update_guid_history>ca426f30abdd3510928bdd66671bff37:1767480588,6421633008dd3510e54ce37cfd421167:1353896684,c201a73029dd3510218a7de031062446:1466529240,9be06fbc7c9d35107b3b8550a87fc786:1682364902,a4a0effcea9d35101f477d59ac05de6f:-1833320682,dbef1fbce49d3510900695de4fc0094f:1635099640</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">aebb38c1475575107ec50d45d36d4329</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-13 18:29:53</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>9b2bef557ddc4ee8b3e701de036cc840</sys_id>
+        <sys_metadata>1fef1fbc479d35107ec50d45d36d434c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_1fef1fbc479d35107ec50d45d36d434c</sys_update_name>
+        <sys_update_version display_value="sp_instance_1fef1fbc479d35107ec50d45d36d434c">c2426f3047dd35107ec50d45d36d4338</sys_update_version>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-13 18:29:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

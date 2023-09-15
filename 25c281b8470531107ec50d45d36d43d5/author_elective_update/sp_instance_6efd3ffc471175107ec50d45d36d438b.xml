@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">9c778d41479575107ec50d45d36d43f2</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 14:00:06</sys_created_on>
+        <sys_id>6efd3ffc471175107ec50d45d36d438b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_6efd3ffc471175107ec50d45d36d438b</sys_update_name>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 21:54:19</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2 style=\"text-align: left;\">Impressum</h2>\r\n<p>&nbsp;</p>\r\n<p>Unternehmen: Greencare Gr&uuml;nfl&auml;chenmanagement GmbH</p>\r\n<p>Adresse: Musterstra&szlig;e 123, 12345 Musterstadt</p>\r\n<p>Telefon: +49 (0)123 456789</p>\r\n<p>E-Mail: <a href=\"mailto:info@greencare.com\" target=\"_new\">info@greencare.com</a></p>\r\n<p>Gesch&auml;ftsf&uuml;hrer: Max Mustermann</p>\r\n<p>Handelsregister: Amtsgericht Musterstadt, HRB 12345</p>\r\n<p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27a UStG: DE123456789</p>",
+		"displayValue": "<p>&nbsp;</p>\n<p>&nbsp;</p>\n<h2 style=\"text-align: left;\">Impressum</h2>\n<p>&nbsp;</p>\n<p>Unternehmen: Greencare Gr&uuml;nfl&auml;chenmanagement GmbH</p>\n<p>Adresse: Musterstra&szlig;e 123, 12345 Musterstadt</p>\n<p>Telefon: +49 (0)123 456789</p>\n<p>E-Mail: <a href=\"mailto:info@greencare.com\" target=\"_new\">info@greencare.com</a></p>\n<p>Gesch&auml;ftsf&uuml;hrer: Max Mustermann</p>\n<p>Handelsregister: Amtsgericht Musterstadt, HRB 12345</p>\n<p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27a UStG: DE123456789</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=6efd3ffc471175107ec50d45d36d438b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_6efd3ffc471175107ec50d45d36d438b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;9c778d41479575107ec50d45d36d43f2&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alice&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-13 14:00:06&lt;/sys_created_on&gt;&lt;sys_id&gt;6efd3ffc471175107ec50d45d36d438b&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Grünflächenmanagement"&gt;25c281b8470531107ec50d45d36d43d5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_6efd3ffc471175107ec50d45d36d438b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alice&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-13 21:54:19&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;h2 style=\"text-align: left;\"&gt;Impressum&lt;/h2&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;p&gt;Unternehmen: Greencare Gr&amp;uuml;nfl&amp;auml;chenmanagement GmbH&lt;/p&gt;\r\n&lt;p&gt;Adresse: Musterstra&amp;szlig;e 123, 12345 Musterstadt&lt;/p&gt;\r\n&lt;p&gt;Telefon: +49 (0)123 456789&lt;/p&gt;\r\n&lt;p&gt;E-Mail: &lt;a href=\"mailto:info@greencare.com\" target=\"_new\"&gt;info@greencare.com&lt;/a&gt;&lt;/p&gt;\r\n&lt;p&gt;Gesch&amp;auml;ftsf&amp;uuml;hrer: Max Mustermann&lt;/p&gt;\r\n&lt;p&gt;Handelsregister: Amtsgericht Musterstadt, HRB 12345&lt;/p&gt;\r\n&lt;p&gt;Umsatzsteuer-Identifikationsnummer gem&amp;auml;&amp;szlig; &amp;sect; 27a UStG: DE123456789&lt;/p&gt;",
+		"displayValue": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h2 style=\"text-align: left;\"&gt;Impressum&lt;/h2&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Unternehmen: Greencare Gr&amp;uuml;nfl&amp;auml;chenmanagement GmbH&lt;/p&gt;\n&lt;p&gt;Adresse: Musterstra&amp;szlig;e 123, 12345 Musterstadt&lt;/p&gt;\n&lt;p&gt;Telefon: +49 (0)123 456789&lt;/p&gt;\n&lt;p&gt;E-Mail: &lt;a href=\"mailto:info@greencare.com\" target=\"_new\"&gt;info@greencare.com&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;Gesch&amp;auml;ftsf&amp;uuml;hrer: Max Mustermann&lt;/p&gt;\n&lt;p&gt;Handelsregister: Amtsgericht Musterstadt, HRB 12345&lt;/p&gt;\n&lt;p&gt;Umsatzsteuer-Identifikationsnummer gem&amp;auml;&amp;szlig; &amp;sect; 27a UStG: DE123456789&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6efd3ffc471175107ec50d45d36d438b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-199505825</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 21:54:19</sys_created_on>
+        <sys_id>818ae9c1471975107ec50d45d36d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a9089b8970000001</sys_recorded_at>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 21:54:19</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>898ae9c13d197510f6d279bb031e40be</update_guid>
+        <update_guid_history>898ae9c13d197510f6d279bb031e40be:-199505825,6977cd4159957510011023e1ffe69485:777497088,849e77304b517510d951b356c03805cd:-433700989,2b0e7bfced117510b756e01faf7e8027:-81278685,e6fd3ffc58117510dd7204f0510a628d:886114815</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8b4be9c1471975107ec50d45d36d4333</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alice</sys_created_by>
+        <sys_created_on>2023-09-13 21:57:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>a08e9435a2f0410885c285600ac45990</sys_id>
+        <sys_metadata>6efd3ffc471175107ec50d45d36d438b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_6efd3ffc471175107ec50d45d36d438b</sys_update_name>
+        <sys_update_version display_value="sp_instance_6efd3ffc471175107ec50d45d36d438b">818ae9c1471975107ec50d45d36d43bf</sys_update_version>
+        <sys_updated_by>alice</sys_updated_by>
+        <sys_updated_on>2023-09-13 21:57:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
