@@ -29,8 +29,43 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
+	var link = '<a href="https://dev120546.service-now.com/nav_to.do?uri=sys_db_object.do?sys_id=f4d3194e47cd35107ec50d45d36d43bd">Koordinationstabelle</a>';
+	
+	
 	// Add your code here
 	var arbeiten = new GlideRecord('x_1112736_gr_nfl_c_gruenflaechenarbeiten');
+	arbeiten.addQuery('ort', current.ort);
+	arbeiten.addQuery('sys_id', '!=', current.sys_id);
+	arbeiten.query();
+	
+	var arr_gf = [];
+	var current_start = new GlideDateTime(current.start);
+	var current_ende = new GlideDateTime(current.ende);
+	
+	while(arbeiten.next()){
+		var arb_start = new GlideDateTime(arbeiten.getValue('start'));
+		var arb_ende = new GlideDateTime(arbeiten.getValue('ende'));
+		if(arb_start <= current_ende && arb_ende >= current_start){
+			arr_gf.push(arbeiten.getValue('sys_id'));
+		}
+	}
+	
+	arbeiten.addQuery('sys_id', 'IN', arr_gf);
+	arbeiten.query();
+	
+	if (arbeiten.hasNext()) {
+        gs.addInfoMessage('Überschneidung mit einer Grünflächen-Arbeit. Siehe '+ link + arbeiten.getRowCount());
+		
+		while(arbeiten.next()){
+			var kollidiert_mit_arbeit = new GlideRecord('x_1112736_gr_nfl_c_kollidiert_mit_arbeit');
+			
+			kollidiert_mit_arbeit.initialize();
+			kollidiert_mit_arbeit.gfa_id_1 = current.sys_id;
+			kollidiert_mit_arbeit.gfa_id_2 = arbeiten.getValue('sys_id');
+			kollidiert_mit_arbeit.insert();
+		}
+    }
+	
 	
 	// Vergleich mit bestehenden GF-Arbeiten -> funktioniert
 	
@@ -38,13 +73,10 @@
 	arbeiten.addQuery('ort', current.ort);
 	arbeiten.addQuery('anfangsdatum', '<=', current.enddatum);
 	arbeiten.addQuery('enddatum', '>=', current.anfangsdatum);
-	arbeiten.query();
+	arbeiten.query();*/
 	
 	
-	if (arbeiten.hasNext()) {
-        gs.addErrorMessage('Es gibt bereits eine Grünflächenarbeit, die mit diesem Zeitraum kollidiert.');
-        current.setAbortAction(true); // Verhindern Sie die Speicherung des neuen Datensatzes
-    }*/
+	
 	
 	
 	
@@ -125,7 +157,7 @@
         current.setAbortAction(true);
 	}
 	else if(veran_prio2.hasNext()){
-		gs.addInfoMessage('Überschneidung mit einer Veranstaltung der Priorität 2.');
+		gs.addInfoMessage('Überschneidung mit einer Veranstaltung der Priorität 2. Siehe '+ link);
 		
 		while(veran_prio2.next()){
 			var kolli_tab = new GlideRecord('x_1112736_gr_nfl_c_m2m_gf_arbeit_to_veranstaltung');
@@ -146,7 +178,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f3507603470d71107ec50d45d36d439b</sys_id>
-        <sys_mod_count>88</sys_mod_count>
+        <sys_mod_count>95</sys_mod_count>
         <sys_name>test</sys_name>
         <sys_overrides/>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
@@ -154,7 +186,7 @@
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sys_script_f3507603470d71107ec50d45d36d439b</sys_update_name>
         <sys_updated_by>claudia</sys_updated_by>
-        <sys_updated_on>2023-09-15 13:12:01</sys_updated_on>
+        <sys_updated_on>2023-09-15 13:53:02</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
