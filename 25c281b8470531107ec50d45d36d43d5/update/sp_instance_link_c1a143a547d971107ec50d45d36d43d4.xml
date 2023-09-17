@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>building-o</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">17610f6547d971107ec50d45d36d432f</sp_column>
+        <sp_page display_value="gfm_management_hstermin">361ba1984759b1107ec50d45d36d43a7</sp_page>
+        <sp_widget display_value="gfm_gf_icon_link">001bf2ad479971107ec50d45d36d434b</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-15 17:31:56</sys_created_on>
+        <sys_id>c1a143a547d971107ec50d45d36d43d4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Geplante Veranstaltungen</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_link_c1a143a547d971107ec50d45d36d43d4</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-15 17:34:09</sys_updated_on>
+        <title>Geplante Veranstaltungen</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=c1a143a547d971107ec50d45d36d43d4"/>
+</record_update>

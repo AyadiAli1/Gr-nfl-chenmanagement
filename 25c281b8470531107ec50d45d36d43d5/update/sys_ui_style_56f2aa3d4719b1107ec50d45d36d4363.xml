@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>kollision</element>
+        <name>x_1112736_gr_nfl_c_gruenflaechenarbeiten</name>
+        <style>color: red; font-weight: bold;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-16 09:56:25</sys_created_on>
+        <sys_id>56f2aa3d4719b1107ec50d45d36d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1112736_gr_nfl_c_gruenflaechenarbeiten</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sys_ui_style_56f2aa3d4719b1107ec50d45d36d4363</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-16 09:56:25</sys_updated_on>
+        <value>4</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=56f2aa3d4719b1107ec50d45d36d4363"/>
+</record_update>

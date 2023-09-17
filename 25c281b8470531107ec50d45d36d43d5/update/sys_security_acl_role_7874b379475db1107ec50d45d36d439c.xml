@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-16 15:52:35</sys_created_on>
+        <sys_id>7874b379475db1107ec50d45d36d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1112736_gr_nfl_c_gebaeude.x_1112736_gr_nfl_c.muted_admin</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_security_acl display_value="x_1112736_gr_nfl_c_gebaeude">163a7dc7470971107ec50d45d36d431c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7874b379475db1107ec50d45d36d439c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-16 15:52:35</sys_updated_on>
+        <sys_user_role display_value="x_1112736_gr_nfl_c.muted_admin" name="x_1112736_gr_nfl_c.muted_admin">b10d9b21475d71107ec50d45d36d432d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

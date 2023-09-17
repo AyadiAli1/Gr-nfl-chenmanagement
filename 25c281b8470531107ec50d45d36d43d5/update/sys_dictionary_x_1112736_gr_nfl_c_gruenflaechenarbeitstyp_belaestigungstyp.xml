@@ -10,10 +10,10 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>belaestigungstyp</column_label>
+        <column_label>Belaestigungstyp</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -32,7 +32,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_1112736_gr_nfl_c_gruenflaechenarbeitstyp</name>
@@ -52,13 +52,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>leonie</sys_created_by>
         <sys_created_on>2023-09-13 19:05:52</sys_created_on>
-        <sys_name>belaestigungstyp</sys_name>
+        <sys_name>Belaestigungstyp</sys_name>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sys_dictionary_x_1112736_gr_nfl_c_gruenflaechenarbeitstyp_belaestigungstyp</sys_update_name>
-        <sys_updated_by>lisa</sys_updated_by>
-        <sys_updated_on>2023-09-13 19:06:46</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-17 08:38:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

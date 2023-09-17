@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="65f2d50e47cd35107ec50d45d36d43a1" label="Arbeitstyp" max_length="40" name="x_1112736_gr_nfl_c_gruenflaechenarbeitstyp" type="collection">
-        <element label="belaestigungstyp" max_length="40" name="belaestigungstyp" type="string"/>
+        <element choice="1" label="Belaestigungstyp" max_length="40" name="belaestigungstyp" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Geruch" value="geruch"/>
+                <element inactive_on_update="false" label="Lärm" value="laerm"/>
+                <element inactive_on_update="false" label="Lärm und Geruch" value="laermundgeruch"/>
+                <element inactive_on_update="false" label="Sperrung von Wegen" value="sperrung"/>
+            </choice>
+        </element>
         <element label="Beschreibung" max_length="150" name="beschreibung" type="string"/>
         <element choice="2" label="Kategorie" mandatory="true" max_length="40" name="kategorie" type="choice">
             <choice>

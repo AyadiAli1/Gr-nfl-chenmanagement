@@ -177,13 +177,13 @@ a.color_box .fa {
         <docs/>
         <field_list>type,url,sc_category,sc_cat_item,kb_topic,kb_article,kb_category,sp_page,title,short_description,color,class_name,glyph</field_list>
         <has_preview>false</has_preview>
-        <id>gfm_icon_link</id>
+        <id>gfm_admin_icon_link</id>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
-        <name>gfm_icon_link</name>
+        <name>gfm_admin_icon_link</name>
         <option_schema>[{"name":"link_template","section":"Presentation","label":"Template","type":"choice","choices":[{"label":"Top Icon","value":"Top Icon"},{"label":"Circle Icon","value":"Circle Icon"},{"label":"Color Box","value":"Color Box"}]}]</option_schema>
-        <public>true</public>
-        <roles/>
+        <public>false</public>
+        <roles>x_1112736_gr_nfl_c.muted_admin</roles>
         <script><![CDATA[(function(){
 	var gr = $sp.getInstanceRecord();
 	data.href = $sp.getMenuHREF(gr);
@@ -194,14 +194,14 @@ a.color_box .fa {
         <sys_created_by>alice</sys_created_by>
         <sys_created_on>2023-09-13 14:23:50</sys_created_on>
         <sys_id>de630c85475175107ec50d45d36d433e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>gfm_icon_link</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>gfm_admin_icon_link</sys_name>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sp_widget_de630c85475175107ec50d45d36d433e</sys_update_name>
-        <sys_updated_by>alice</sys_updated_by>
-        <sys_updated_on>2023-09-13 14:36:09</sys_updated_on>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-15 19:38:49</sys_updated_on>
         <template><![CDATA[<div class="iconlink" ng-class="{'high-contrast': accessibilityModeEnabled}">
   <!--// Top Icon -->
   <a ng-if="::(options.link_template == 'Top Icon' || !options.link_template)" ng-href="{{::data.href}}" class="top_icon {{::options.class_name}}" target="{{::data.target}}">

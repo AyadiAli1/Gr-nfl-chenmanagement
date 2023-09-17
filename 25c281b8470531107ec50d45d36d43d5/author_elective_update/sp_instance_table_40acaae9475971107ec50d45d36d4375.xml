@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>name,typ,ort,beschreibung,start,ende,zustandigemitarbeiter,kollision</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">01c5ce1847d9b1107ec50d45d36d431c</sp_column>
+        <sp_page/>
+        <sp_widget/>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-15 16:00:07</sys_created_on>
+        <sys_id>40acaae9475971107ec50d45d36d4375</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_update_name>sp_instance_table_40acaae9475971107ec50d45d36d4375</sys_update_name>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-15 16:09:05</sys_updated_on>
+        <table>x_1112736_gr_nfl_c_gruenflaechenarbeiten</table>
+        <title>test</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=40acaae9475971107ec50d45d36d4375"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</application>
+        <file_path/>
+        <instance_id>ce95a663dbb8011010543feb68961914</instance_id>
+        <instance_name>dev120546</instance_name>
+        <name>sp_instance_table_40acaae9475971107ec50d45d36d4375</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list>name,typ,ort,beschreibung,start,ende,zustandigemitarbeiter,kollision</field_list><filter/><glyph/><id/><maximum_entries>10</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">01c5ce1847d9b1107ec50d45d36d431c</sp_column><sp_page/><sp_widget/><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>lisa</sys_created_by><sys_created_on>2023-09-15 16:00:07</sys_created_on><sys_id>40acaae9475971107ec50d45d36d4375</sys_id><sys_mod_count>6</sys_mod_count><sys_name>test</sys_name><sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package><sys_policy/><sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope><sys_update_name>sp_instance_table_40acaae9475971107ec50d45d36d4375</sys_update_name><sys_updated_by>lisa</sys_updated_by><sys_updated_on>2023-09-15 16:09:05</sys_updated_on><table>x_1112736_gr_nfl_c_gruenflaechenarbeiten</table><title>test</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=40acaae9475971107ec50d45d36d4375"/></record_update>]]></payload>
+        <payload_hash>-1558198576</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>c403c28a478175107ec50d45d36d43fc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-15 16:18:03</sys_created_on>
+        <sys_id>3eb03621479971107ec50d45d36d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a99a292970000001</sys_recorded_at>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-15 16:18:03</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>27aea6add85971102c715566adc67ee8</update_guid>
+        <update_guid_history>27aea6add85971102c715566adc67ee8:1005374493,27aea6add85971102c715566adc67ee8:1005374493,019eaaadcb59711053c6df736b1e0cb0:-381404055,131d626d25597110d34f8ccbd0bf3bf6:-950666509,0e1d626dbd5971105d903c7517e14960:-1762345241,a6fc6e2dbd5971102b63dc3b20cbdf7e:-1273991258,cdec6e2d8159711089039824cb229cc5:-463980753,ccacaae99b597110ed4fd9c612ecc276:78866348</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test">81c07a61479971107ec50d45d36d4363</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-15 16:18:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>8b857f674ca74b309966167c72ce1344</sys_id>
+        <sys_metadata>40acaae9475971107ec50d45d36d4375</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_scope_delete display_value="">03fd3b6092e74a96832d86cabefc4dc1</sys_scope_delete>
+        <sys_update_name>sp_instance_table_40acaae9475971107ec50d45d36d4375</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_40acaae9475971107ec50d45d36d4375">3eb03621479971107ec50d45d36d435e</sys_update_version>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-15 16:18:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

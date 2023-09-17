@@ -7,11 +7,11 @@
         <element choice="1" default="1" label="Kollision" max_length="40" name="kollision" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Keine Kollision" value="1"/>
-                <element inactive_on_update="false" label="Kollision mit GF-Arbeit" value="2"/>
-                <element inactive_on_update="false" label="Kollision mit GF-Arbeit und Veranstaltung" value="4"/>
-                <element inactive_on_update="false" label="Kollision mit Veranstaltung" value="3"/>
+                <element inactive_on_update="false" label="Kollision mit Veranstaltung höher Priorität" value="3"/>
+                <element inactive_on_update="false" label="Kollision mit Veranstaltung niedriger Priorität" value="4"/>
             </choice>
         </element>
+        <element label="Kollision mit vl" max_length="32" name="kollision_mit_vl" reference="x_1112736_gr_nfl_c_veranstaltung" type="reference"/>
         <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element label="Grünfläche" mandatory="true" max_length="32" name="ort" reference="x_1112736_gr_nfl_c_gruenflaechen" type="reference"/>
         <element label="Pflegeobjekt" max_length="32" name="pflegeobjekt" reference="x_1112736_gr_nfl_c_pflegeobjekten" type="reference"/>
@@ -32,9 +32,12 @@
         </element>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Zuständiger Mitarbeiter" mandatory="true" max_length="40" name="zustandigemitarbeiter" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <index name="index">
-            <element name="ort"/>
+            <element name="kollision_mit_vl"/>
         </index>
         <index name="index2">
+            <element name="ort"/>
+        </index>
+        <index name="index3">
             <element name="pflegeobjekt"/>
         </index>
     </element>
