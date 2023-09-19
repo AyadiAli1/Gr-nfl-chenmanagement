@@ -41,6 +41,7 @@
     veranstaltung.addQuery('raum', current.raum);
     veranstaltung.addQuery('start', '<=', current.ende);
     veranstaltung.addQuery('ende', '>=', current.start);
+    veranstaltung.addQuery('sys_id', '!=', current.sys_id);
     veranstaltung.query();
 
 
@@ -49,51 +50,73 @@
         current.setAbortAction(true); // Verhindern Sie die Speicherung des neuen Datensatzes
     }
 
-	
-	//KOLLISION MIT GF
+
+    //KOLLISION MIT GF
 
     var gr = new GlideRecord('x_1112736_gr_nfl_c_m2m_x_1112736_g_x_1112736_g');
     gr.addQuery('x_1112736_gr_nfl_c_gebaeude', current.gebaeude);
-	// das gibt mir zurück welche einträge haben das dasselbe Gebäude 
-	gr.query();
-	// ich muss jetzt auf die zugehörigen grunfläche zugreifen , ein arry um die zu speichern
-	var arrayGF = [];
-	
-	while(gr.next()){
-		arrayGF.push(gr.getValue('x_1112736_gr_nfl_c_gruenflaechen'));	// in diesem array sind die GF die zum gebäude gehören.
-	}
-	
-	var gf = new GlideRecord('x_1112736_gr_nfl_c_gruenflaechenarbeiten');
-	gf.addQuery('ort', 'IN' , arrayGF.join(','));
-	gf.query();
-	
-	// Daten miteinander vergleichen
-	var arr2 = [];
-	var current_start = new GlideDateTime(current.start);
-	var current_ende = new GlideDateTime(current.ende);
-	
-	while(gf.next()){
-		var gf_start = new GlideDateTime(gf.getValue('start'));
-		var gf_ende = new GlideDateTime(gf.getValue('ende'));
-		if(gf_start <= current_ende && gf_ende >= current_start){
-			arr2.push(gf.getValue('sys_id'));
-		}
-	}
-    
-	gf.addQuery('sys_id', 'IN', arr2);
-	gf.query();
-	
-    while (gf.next()) {
-        //	i++;
-        //current.setAbortAction(true);
-        gs.addInfoMessage('Es gibt  GF-Arbeiten, die nebenan stattfinden. Sie müssen einen anderen Termin auswählen');
-        gs.addInfoMessage(gf.getValue('name'));
-		gs.addInfoMessage(gf.getUniqueValue());
-		gf.setValue('kollision',3);
-		current.setValue('kollidiert_mit_gf',gf.getUniqueValue() );
-        
+    // das gibt mir zurück welche einträge haben das dasselbe Gebäude 
+    gr.query();
+    // ich muss jetzt auf die zugehörigen grunfläche zugreifen , ein arry um die zu speichern
+    var arrayGF = [];
+
+    while (gr.next()) {
+        arrayGF.push(gr.getValue('x_1112736_gr_nfl_c_gruenflaechen')); // in diesem array sind die GF die zum gebäude gehören.
     }
-   
+
+    var gf = new GlideRecord('x_1112736_gr_nfl_c_gruenflaechenarbeiten');
+    gf.addQuery('ort', 'IN', arrayGF.join(','));
+    gf.query();
+
+    // Daten miteinander vergleichen
+    var arr2 = [];
+    var current_start = new GlideDateTime(current.start);
+    var current_ende = new GlideDateTime(current.ende);
+
+    while (gf.next()) {
+        var gf_start = new GlideDateTime(gf.getValue('start'));
+        var gf_ende = new GlideDateTime(gf.getValue('ende'));
+        if (gf_start <= current_ende && gf_ende >= current_start) {
+            arr2.push(gf.getValue('sys_id'));
+        }
+    }
+
+    gf.addQuery('sys_id', 'IN', arr2);
+    gf.query();
+
+    while (gf.next()) {
+        
+        if (current.prio == 1) {
+
+            var check = gf.typ;
+            if (check.belaestigungstyp != 'sperrung') {
+
+                gs.addInfoMessage('Es gibt  GF-Arbeiten, die nebenan stattfinden. Mitarbeiter wird informiert');
+                //gf.setValue('kollision',3);
+                gf.setValue('kollision', 'Kollision mit Veranstaltung höher Priorität');
+                gf.setValue('kollision_mit_vl', current.getUniqueValue());
+                gf.update();
+
+                current.setValue('kollidiert_mit_gf', gf.getUniqueValue());
+            } else {
+                gf.setValue('kollision_mit_vl', current.getUniqueValue());
+                gf.update();
+
+                current.setValue('kollidiert_mit_gf', gf.getUniqueValue());
+            }
+
+        } else {
+            gs.addInfoMessage('Es gibt  GF-Arbeiten, die nebenan stattfinden. Mitarbeiter wird informiert');
+            gf.setValue('kollision', 'Kollision mit Veranstaltung niedriger Priorität');
+            gf.setValue('kollision_mit_vl', current.getUniqueValue());
+            gf.update();
+            current.setValue('kollidiert_mit_gf', gf.getUniqueValue());
+           
+        }
+
+
+    }
+
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -102,7 +125,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2843dffb474171107ec50d45d36d43d5</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>verify_veranstaltung</sys_name>
         <sys_overrides/>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
@@ -110,7 +133,7 @@
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sys_script_2843dffb474171107ec50d45d36d43d5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-16 09:32:21</sys_updated_on>
+        <sys_updated_on>2023-09-19 10:05:32</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

@@ -10,13 +10,13 @@
         <copied_from_name/>
         <description>Bestätigung nach erfolgreicher Erstellung eines HS-Termins</description>
         <internal_name>besttigungnachhstermin</internal_name>
-        <label_cache>[{"name":"Created_1.current.zustandigemitarbeiter.email","label":"Trigger - Record Created➛Grünflächenarbeit Record➛Zuständiger Mitarbeiter➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current","label":"Trigger - Record Created➛Grünflächenarbeit Record","reference":"x_1112736_gr_nfl_c_gruenflaechenarbeiten","reference_display":"Grünflächenarbeit","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.zustandigemitarbeiter.first_name","label":"Trigger - Record Created➛Grünflächenarbeit Record➛Zuständiger Mitarbeiter➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created_1.current.zustandigemitarbeiter.email","label":"Trigger - Record Created➛Grünflächenarbeit Record➛Zuständiger Mitarbeiter➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current","label":"Trigger - Record Created➛Grünflächenarbeit Record","reference":"x_1112736_gr_nfl_c_gruenflaechenarbeiten","reference_display":"Grünflächenarbeit","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master_snapshot>10e14116475135107ec50d45d36d43b2</master_snapshot>
         <name>BestätigungNachGFarbeit</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>2ce14116475135107ec50d45d36d43ff</remote_trigger_id>
+        <remote_trigger_id>1f1e4116479135107ec50d45d36d4362</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,15 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c7e08592475135107ec50d45d36d4386</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>BestätigungNachGFarbeit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sys_hub_flow_c7e08592475135107ec50d45d36d4386</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:12</sys_updated_on>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:38</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c7e08592475135107ec50d45d36d4386"/>
@@ -57,16 +57,16 @@
         <run_when_user_list/>
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-17 16:09:11</sys_created_on>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-17 17:02:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2ce14116475135107ec50d45d36d43ff</sys_id>
+        <sys_id>1f1e4116479135107ec50d45d36d4362</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:11</sys_updated_on>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:37</sys_updated_on>
         <table>x_1112736_gr_nfl_c_gruenflaechenarbeiten</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
@@ -74,15 +74,15 @@
         <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>c7e08592475135107ec50d45d36d4386</identifier>
         <runner>FDTriggerRunner</runner>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-17 16:09:11</sys_created_on>
-        <sys_id>a4e18116475135107ec50d45d36d4300</sys_id>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-17 17:02:37</sys_created_on>
+        <sys_id>971e4116479135107ec50d45d36d4363</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:11</sys_updated_on>
-        <trigger display_value="">2ce14116475135107ec50d45d36d43ff</trigger>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:37</sys_updated_on>
+        <trigger display_value="">1f1e4116479135107ec50d45d36d4362</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c7e08592475135107ec50d45d36d4386^sys_idNOT INa4e18116475135107ec50d45d36d4300"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c7e08592475135107ec50d45d36d4386^sys_idNOT IN971e4116479135107ec50d45d36d4363"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=c7e08592475135107ec50d45d36d4386^sys_idNOT IN8bd10116475135107ec50d45d36d4392"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -93,10 +93,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 16:09:05</sys_created_on>
         <sys_id>8bd10116475135107ec50d45d36d4392</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:11</sys_updated_on>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:38</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -209,14 +209,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 16:09:05</sys_created_on>
         <sys_id>43d10116475135107ec50d45d36d438a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:11</sys_updated_on>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -292,14 +292,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 16:09:05</sys_created_on>
         <sys_id>83d10116475135107ec50d45d36d438e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:11</sys_updated_on>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -329,10 +329,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 16:09:05</sys_created_on>
         <sys_id>07d10116475135107ec50d45d36d43b3</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:10:19</sys_updated_on>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:09:17</sys_updated_on>
         <ui_id>c2b5500c-de2e-461b-951a-fb14ab4de533</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=07d10116475135107ec50d45d36d43b3"/>
@@ -372,10 +372,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 16:09:05</sys_created_on>
         <sys_id>87d10116475135107ec50d45d36d43b6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:05</sys_updated_on>
-        <value>&lt;p&gt;Hallo ,&lt;br /&gt;der Termin wurde erfolgreich gebucht &lt;/p&gt;</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 16:52:40</sys_updated_on>
+        <value/>
         <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=07d10116475135107ec50d45d36d43b3"/>
@@ -385,11 +385,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 16:09:05</sys_created_on>
         <sys_id>cbd10116475135107ec50d45d36d43b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:05</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:28</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
+        <value>&lt;p&gt;Sehr geehrte/r &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:76876e96-b7f5-4787-a30d-242a985ca2ef}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:76876e96-b7f5-4787-a30d-242a985ca2ef}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Gr&amp;uuml;nfl&amp;auml;chenarbeit Record &amp;gt; Zust&amp;auml;ndiger Mitarbeiter &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_76876e96-b7f5-4787-a30d-242a985ca2ef" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p&gt;der soeben von Ihnen eingetragene Termin wurde erfolgreich gebucht.&lt;/p&gt;
+&lt;p&gt;Vielen Dank f&amp;uuml;r Ihre Buchung!&lt;/p&gt;
+&lt;p&gt;Mit freundlichen Gr&amp;uuml;&amp;szlig;en&lt;/p&gt;
+&lt;p&gt;ihr GreenCare Team&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Diese E-Mail ist automatisiert und ben&amp;ouml;tigt keine Antwort.&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
@@ -443,7 +447,58 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=07d10116475135107ec50d45d36d43b3"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c7e08592475135107ec50d45d36d4386"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=c7e08592475135107ec50d45d36d4386"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c7e08592475135107ec50d45d36d4386"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c7e08592475135107ec50d45d36d4386^sys_idNOT IN37cc8192479135107ec50d45d36d4376,51dbc912479135107ec50d45d36d4385,7fcc8192479135107ec50d45d36d4375"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c7e08592475135107ec50d45d36d4386</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.zustandigemitarbeiter.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-17 16:56:56</sys_created_on>
+        <sys_id>37cc8192479135107ec50d45d36d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 16:56:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>76876e96-b7f5-4787-a30d-242a985ca2ef</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c7e08592475135107ec50d45d36d4386</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.zustandigemitarbeiter.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-17 16:52:40</sys_created_on>
+        <sys_id>51dbc912479135107ec50d45d36d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 16:52:40</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e3ae52e2-e916-4097-9bc3-7a6e5069e07f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c7e08592475135107ec50d45d36d4386</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.zustandigemitarbeiter.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-17 16:56:56</sys_created_on>
+        <sys_id>7fcc8192479135107ec50d45d36d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 16:56:56</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4429af49-44bb-4fe1-a803-6d2001066fbc</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=c7e08592475135107ec50d45d36d4386"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c7e08592475135107ec50d45d36d4386^sys_idNOT IN83d10116475135107ec50d45d36d438d,c7d10116475135107ec50d45d36d4390"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -500,18 +555,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e8e18116475135107ec50d45d36d4301","name":"plan","plan_signature":null}}</plan>
         <plan_id>c7e08592475135107ec50d45d36d4386</plan_id>
-        <snapshot>8122c916475135107ec50d45d36d434f</snapshot>
+        <snapshot>f4af8996479135107ec50d45d36d43c1</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 16:09:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e8e18116475135107ec50d45d36d4301</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:11</sys_updated_on>
-        <trigger display_value="">2ce14116475135107ec50d45d36d43ff</trigger>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:37</sys_updated_on>
+        <trigger display_value="">1f1e4116479135107ec50d45d36d4362</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c7e08592475135107ec50d45d36d4386"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -525,7 +580,7 @@
         <copied_from_name/>
         <description>Bestätigung nach erfolgreicher Erstellung eines HS-Termins</description>
         <internal_name>besttigungnachgfarbeit</internal_name>
-        <label_cache>[{"name":"Created_1.current.zustandigemitarbeiter.email","label":"Trigger - Record Created➛Grünflächenarbeit Record➛Zuständiger Mitarbeiter➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current","label":"Trigger - Record Created➛Grünflächenarbeit Record","reference":"x_1112736_gr_nfl_c_gruenflaechenarbeiten","reference_display":"Grünflächenarbeit","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.zustandigemitarbeiter.first_name","label":"Trigger - Record Created➛Grünflächenarbeit Record➛Zuständiger Mitarbeiter➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created_1.current.zustandigemitarbeiter.email","label":"Trigger - Record Created➛Grünflächenarbeit Record➛Zuständiger Mitarbeiter➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current","label":"Trigger - Record Created➛Grünflächenarbeit Record","reference":"x_1112736_gr_nfl_c_gruenflaechenarbeiten","reference_display":"Grünflächenarbeit","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master>true</master>
         <name>BestätigungNachGFarbeit</name>
         <natlang/>
@@ -542,15 +597,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>10e14116475135107ec50d45d36d43b2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:10</sys_updated_on>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:37</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=10e14116475135107ec50d45d36d43b2"/>
@@ -565,10 +620,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 16:09:11</sys_created_on>
         <sys_id>d8e14116475135107ec50d45d36d43e5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:11</sys_updated_on>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:37</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -622,7 +677,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -681,14 +736,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 16:09:11</sys_created_on>
         <sys_id>1ce14116475135107ec50d45d36d43cf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:11</sys_updated_on>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -705,7 +760,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -764,14 +819,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 16:09:10</sys_created_on>
         <sys_id>dce14116475135107ec50d45d36d43b3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:10</sys_updated_on>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -801,10 +856,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 16:09:11</sys_created_on>
         <sys_id>18e14116475135107ec50d45d36d43e2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:11</sys_updated_on>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:37</sys_updated_on>
         <ui_id>c2b5500c-de2e-461b-951a-fb14ab4de533</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=18e14116475135107ec50d45d36d43e2"/>
@@ -830,10 +885,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 16:09:11</sys_created_on>
         <sys_id>50e14116475135107ec50d45d36d43e5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:11</sys_updated_on>
-        <value>&lt;p&gt;Hallo ,&lt;br /&gt;der Termin wurde erfolgreich gebucht &lt;/p&gt;</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 16:52:44</sys_updated_on>
+        <value/>
         <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -857,11 +912,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-17 16:09:11</sys_created_on>
         <sys_id>94e14116475135107ec50d45d36d43e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-17 16:09:11</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 17:02:37</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value/>
+        <value>&lt;p&gt;Sehr geehrte/r &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:76876e96-b7f5-4787-a30d-242a985ca2ef}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:76876e96-b7f5-4787-a30d-242a985ca2ef}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Gr&amp;uuml;nfl&amp;auml;chenarbeit Record &amp;gt; Zust&amp;auml;ndiger Mitarbeiter &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_76876e96-b7f5-4787-a30d-242a985ca2ef" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p&gt;der soeben von Ihnen eingetragene Termin wurde erfolgreich gebucht.&lt;/p&gt;
+&lt;p&gt;Vielen Dank f&amp;uuml;r Ihre Buchung!&lt;/p&gt;
+&lt;p&gt;Mit freundlichen Gr&amp;uuml;&amp;szlig;en&lt;/p&gt;
+&lt;p&gt;ihr GreenCare Team&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Diese E-Mail ist automatisiert und ben&amp;ouml;tigt keine Antwort.&lt;/p&gt;</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
@@ -915,7 +974,58 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=18e14116475135107ec50d45d36d43e2"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=10e14116475135107ec50d45d36d43b2"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=10e14116475135107ec50d45d36d43b2"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=10e14116475135107ec50d45d36d43b2"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=10e14116475135107ec50d45d36d43b2^sys_idNOT IN52db0d12479135107ec50d45d36d43dc,58dcc192479135107ec50d45d36d430f,94dcc192479135107ec50d45d36d430f"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>10e14116475135107ec50d45d36d43b2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.zustandigemitarbeiter.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-17 16:52:44</sys_created_on>
+        <sys_id>52db0d12479135107ec50d45d36d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 16:52:44</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e3ae52e2-e916-4097-9bc3-7a6e5069e07f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>10e14116475135107ec50d45d36d43b2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.zustandigemitarbeiter.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-17 16:56:57</sys_created_on>
+        <sys_id>58dcc192479135107ec50d45d36d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 16:56:57</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4429af49-44bb-4fe1-a803-6d2001066fbc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>10e14116475135107ec50d45d36d43b2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.zustandigemitarbeiter.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>lisa</sys_created_by>
+        <sys_created_on>2023-09-17 16:56:57</sys_created_on>
+        <sys_id>94dcc192479135107ec50d45d36d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
+        <sys_updated_by>lisa</sys_updated_by>
+        <sys_updated_on>2023-09-17 16:56:57</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>76876e96-b7f5-4787-a30d-242a985ca2ef</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=10e14116475135107ec50d45d36d43b2"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_10e14116475135107ec50d45d36d43b2^sys_idNOT IN90e14116475135107ec50d45d36d43d4,d0e14116475135107ec50d45d36d43cc"/>
     <sys_documentation action="INSERT_OR_UPDATE">
