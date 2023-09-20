@@ -31,7 +31,7 @@
     }, 500);
 
 
-
+    // wird nicht verwendt , weil es im Frontend nicht geklappt hat
 
 
 
@@ -44,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eb9e7b30475175107ec50d45d36d4357</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>prio_automatisch_erfüllt</sys_name>
         <sys_overrides/>
         <sys_package display_value="Grünflächenmanagement" source="x_1112736_gr_nfl_c">25c281b8470531107ec50d45d36d43d5</sys_package>
@@ -52,7 +52,7 @@
         <sys_scope display_value="Grünflächenmanagement">25c281b8470531107ec50d45d36d43d5</sys_scope>
         <sys_update_name>sys_script_client_eb9e7b30475175107ec50d45d36d4357</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-19 06:54:33</sys_updated_on>
+        <sys_updated_on>2023-09-20 09:53:49</sys_updated_on>
         <table>x_1112736_gr_nfl_c_veranstaltung</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
